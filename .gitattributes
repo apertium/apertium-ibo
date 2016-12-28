@@ -11,6 +11,7 @@
 /ap_include.am -text
 /apertium-ibo.ibo.lexc -text
 /apertium-ibo.ibo.rlx -text
+/apertium-ibo.ibo.twoc -text
 /apertium-ibo.ibo.twol -text
 /apertium-ibo.pc.in -text
 /apertium-ibo.post-ibo.dix -text

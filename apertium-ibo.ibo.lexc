@@ -6,6 +6,17 @@ Multichar_Symbols
 %<n%>  ! Noun
 %<pl%> ! Plural
 %<sg%> ! Singular
+%<v%>
+
+%<inf%>
+%<prc%>
+
+%{A%}   ! a or e
+
+%[%+A%] !
+%[%+i%]
+%[%+inf%]
+%[%+prc%]
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -15,19 +26,28 @@ LEXICON Root
 
 Nouns ;
 
+Prefixes ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-
 LEXICON N1
 
-%<n%>%<sg%>:  # ;
-%<n%>%<pl%>:  # ;
+%<n%>:  # ; 
 
-LEXICON VBLEX
+LEXICON V
 
-%<vblex%>:  # ;
+%<v%>%<inf%>%[%+inf%]: # ;
+%<v%>%<prc%>%[%+prc%]: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Prefixes
+
+%[%+A%]:%{A%}%> Verbs ; 
+%[%+i%]:i%>     Verbs ; 
+                Verbs ; 
 
 
 !=============!
@@ -158,37 +178,39 @@ uwe:uwe N1 ; ! "shirt"
  LEXICON Verbs
 !=============!
 
-iri:iri VBLEX ; ! "eat"
-ibụ:ibụ VBLEX ; ! "be"
-idi:idi VBLEX ; ! "be"
-iwẹ:iwẹ VBLEX ; ! "have"
-imẹ:imẹ VBLEX ; ! "make"
-isi:isi VBLEX ; ! "say"
-ijẹ:ijẹ VBLEX ; ! "go"
-ima:ima VBLEX ; ! "know"
-ifụ:ifụ VBLEX ; ! "see"
-ibia:ibia VBLEX ; ! "come"
-ichẹ:ichẹ VBLEX ; ! "think"
-inẹ:inẹ VBLEX ; ! "look"
-ichọ:ichọ VBLEX ; ! "want"
-inyẹ:inyẹ VBLEX ; ! "give"
-iji:iji VBLEX ; ! "use"
-igwa:igwa VBLEX ; ! "tell"
-ijụ:ijụ VBLEX ; ! "ask"
-ilu:ilu VBLEX ; ! "work"
-ili:ili VBLEX ; ! "eat"
-irapụ:irapụ VBLEX ; ! "leave"
-ikpọ:ikpọ VBLEX ; ! "call"
-ichu:ichu VBLEX ; ! "chase"
-ide:ide VBLEX ; ! "write"
-igafe:igafe VBLEX ; ! "pass"
-igba:igba VBLEX ; ! "dance"
-igbachi:igbachi VBLEX ; ! "lock"
-icheta:icheta VBLEX ; ! "remember"
-ikagbu:ikagbu VBLEX ; ! "cancel"
-iga:iga VBLEX ; ! "walk"
-inodu:inodu VBLEX ; ! "sit"
-itu:itu VBLEX ; ! "throw" 
+iri:ri V ; ! "eat"
+ibi:bi V ; ! "live"
+
+ibụ:ibụ V ; ! "be"
+idi:idi V ; ! "be"
+iwẹ:iwẹ V ; ! "have"
+imẹ:imẹ V ; ! "make"
+isi:isi V ; ! "say"
+ijẹ:ijẹ V ; ! "go"
+ima:ima V ; ! "know"
+ifụ:ifụ V ; ! "see"
+ibia:ibia V ; ! "come"
+ichẹ:ichẹ V ; ! "think"
+inẹ:inẹ V ; ! "look"
+ichọ:ichọ V ; ! "want"
+inyẹ:inyẹ V ; ! "give"
+iji:iji V ; ! "use"
+igwa:igwa V ; ! "tell"
+ijụ:ijụ V ; ! "ask"
+ilu:ilu V ; ! "work"
+ili:ili V ; ! "eat"
+irapụ:irapụ V ; ! "leave"
+ikpọ:ikpọ V ; ! "call"
+ichu:ichu V ; ! "chase"
+ide:ide V ; ! "write"
+igafe:igafe V ; ! "pass"
+igba:igba V ; ! "dance"
+igbachi:igbachi V ; ! "lock"
+icheta:icheta V ; ! "remember"
+ikagbu:ikagbu V ; ! "cancel"
+iga:iga V ; ! "walk"
+inodu:inodu V ; ! "sit"
+itu:itu V ; ! "throw" 
 
 
 
