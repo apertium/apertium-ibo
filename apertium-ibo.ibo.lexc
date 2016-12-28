@@ -15,8 +15,6 @@ LEXICON Root
 
 Nouns ;
 
-Verbs ;
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -29,17 +27,7 @@ LEXICON N1
 
 LEXICON VBLEX
 
-%<v%>%<cni%>%[%+vblex%]%[%-nf%]: PERS ;
-%<v%>%<prs%>%[%-vblex%]%[%+prs%]: PERS ;
-
-LEXICON Prefix
-
-%[vblex%]%[+inf%]:i Verbs;
-%[vblex%]%[-inf%]:i Verbs;
-
-LEXICON REST;
-
-%<vblex%>%<inf%>:e  # ;
+%<vblex%>:  # ;
 
 
 !=============!
@@ -170,7 +158,7 @@ uwe:uwe N1 ; ! "shirt"
  LEXICON Verbs
 !=============!
 
-iri:ri VBLEX ; ! "eat"
+iri:iri VBLEX ; ! "eat"
 ibụ:ibụ VBLEX ; ! "be"
 idi:idi VBLEX ; ! "be"
 iwẹ:iwẹ VBLEX ; ! "have"
