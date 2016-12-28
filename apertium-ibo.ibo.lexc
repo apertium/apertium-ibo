@@ -41,6 +41,18 @@ LEXICON V
 %<v%>%<inf%>%[%+inf%]: # ;
 %<v%>%<prc%>%[%+prc%]: # ;
 
+LEXICON ADJ
+
+%<adj%>: # ;
+
+LEXICON NUM
+
+%<num%>: # ;
+
+LEXICON PREP
+
+%<prep%>: # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Prefixes
@@ -182,36 +194,85 @@ iri:ri V ; ! "eat"
 ibi:bi V ; ! "live"
 iga:ga V ; ! "walk"
 
-ibụ:ibụ V ; ! "be"
-idi:idi V ; ! "be"
-iwẹ:iwẹ V ; ! "have"
-imẹ:imẹ V ; ! "make"
-isi:isi V ; ! "say"
-ijẹ:ijẹ V ; ! "go"
-ima:ima V ; ! "know"
-ifụ:ifụ V ; ! "see"
-ibia:ibia V ; ! "come"
-ichẹ:ichẹ V ; ! "think"
-inẹ:inẹ V ; ! "look"
-ichọ:ichọ V ; ! "want"
-inyẹ:inyẹ V ; ! "give"
-iji:iji V ; ! "use"
-igwa:igwa V ; ! "tell"
-ijụ:ijụ V ; ! "ask"
-ilu:ilu V ; ! "work"
-ili:ili V ; ! "eat"
-irapụ:irapụ V ; ! "leave"
-ikpọ:ikpọ V ; ! "call"
-ichu:ichu V ; ! "chase"
-ide:ide V ; ! "write"
-igafe:igafe V ; ! "pass"
-igba:igba V ; ! "dance"
-igbachi:igbachi V ; ! "lock"
-icheta:icheta V ; ! "remember"
-ikagbu:ikagbu V ; ! "cancel"
-inodu:inodu V ; ! "sit"
-itu:itu V ; ! "throw" 
+ibụ:bụ V ; ! "be"
+idi:di V ; ! "be"
+iwẹ:wẹ V ; ! "have"
+imẹ:mẹ V ; ! "make"
+isi:si V ; ! "say"
+ijẹ:jẹ V ; ! "go"
+ima:ma V ; ! "know"
+ifụ:fụ V ; ! "see"
+ibia:bia V ; ! "come"
+ichẹ:chẹ V ; ! "think"
+inẹ:nẹ V ; ! "look"
+ichọ:chọ V ; ! "want"
+inyẹ:nyẹ V ; ! "give"
+iji:ji V ; ! "use"
+igwa:gwa V ; ! "tell"
+ijụ:jụ V ; ! "ask"
+ilu:lu V ; ! "work"
+ili:li V ; ! "eat"
+irapụ:rapụ V ; ! "leave"
+ikpọ:kpọ V ; ! "call"
+ichu:chu V ; ! "chase"
+ide:de V ; ! "write"
+igafe:gafe V ; ! "pass"
+igba:gba V ; ! "dance"
+igbachi:gbachi V ; ! "lock"
+icheta:cheta V ; ! "remember"
+ikagbu:kagbu V ; ! "cancel"
+inodu:nodu V ; ! "sit"
+itu:tu V ; ! "throw" 
 
+!=================!
+ LEXICON Adjectives
+!=================!
+
+öma:öma ADJ ; ! "good, beautiful"
+öcha:öcha ADJ ; ! "white, clean"
+oji:oji	ADJ ; ! "black"
+öjöö:öjöö ADJ ; ! "ugly, bad"
+ukwu:ukwu ADJ ; ! "big"
+obele:obele ADJ ; ! "small"
+niile:niile ADJ ; ! "all, each, every"
+dum:dum	ADJ ! "all, each, every"
+
+!===================!
+ LEXICON Prepositions
+!===================!
+
+na:na PREP ; ! "in, at, on"
+
+
+!===============!
+ LEXICON Numerals
+!===============!
+
+otu:otu NUM ; ! "1"
+abüö:abüö NUM ; ! "2"
+atö:atö NUM ; ! "3"
+anö:anö NUM ; ! "4"
+ise:ise NUM ; ! "5"
+isii:isii NUM ; ! "6"
+asaa:asaa NUM ; ! "7"
+asatö:asatö NUM ; ! "8"
+itolu:itolu NUM ; ! "9"
+iri:iri NUM ; ! "10"
+iri% na% otu:iri% na% otu NUM ; ! "11"
+iri% na% atö:iri% na% atö NUM ; ! "13"
+iri% abüö:iri% abüö NUM ; ! "20"
+iri% abüö% na% otu:iri% abüö% na% otu NUM ; ! "21"
+iri% atö:iri% atö NUM ; ! "30"
+iri% atö% na% otu:iri% atö% na% otu NUM ; ! "31"
+iri% asatö:iri% asatö NUM ; ! "80"
+iri% itolu:iri% itolu NUM ; ! "90"
+narï:narï NUM ; ! "100"
+narï% abüö:narï% abüö NUM ; ! "200"
+puku:puku NUM ; ! "1,000"
+puku% atö% na% iri% abüö% na% iri:puku% atö% na% iri% abüö% na% iri NUM ; ! "3,210"
+nde:nde NUM ; ! "1,000,000"
+ijeri:ijeri NUM ; ! "1,000,000,000"
+ökara:ökara NUM ; ! "1/2"
 
 
 
