@@ -1,0 +1,216 @@
+! Morphological Transducer for Igbo
+
+Multichar_Symbols
+
+! Part of speech categories
+%<n%>  ! Noun
+%<pl%> ! Plural
+%<sg%> ! Singular
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                       M O R P H O T A C T I C S                         !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root
+
+Nouns ;
+
+Verbs ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                          L E X I C O N                                  !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+LEXICON N1
+
+%<n%>%<sg%>:  # ;
+%<n%>%<pl%>:  # ;
+
+LEXICON VBLEX
+
+%<v%>%<cni%>%[%+vblex%]%[%-nf%]: PERS ;
+%<v%>%<prs%>%[%-vblex%]%[%+prs%]: PERS ;
+
+LEXICON Prefix
+
+%[vblex%]%[+inf%]:i Verbs;
+%[vblex%]%[-inf%]:i Verbs;
+
+LEXICON REST;
+
+%<vblex%>%<inf%>:e  # ;
+
+
+!=============!
+ LEXICON Nouns
+!=============!
+
+abali:abali N1 ; ! "night"
+abu:abu N1 ; ! "song"
+achịcha:achịcha N1 ; ! "bread"
+afa:afa N1 ; ! "name"
+afịa:afịa N1 ; ! "market"
+afo:afo N1 ; ! "stomach"
+agba:agba N1 ; ! "jaw"
+agbọ:agbọ N1 ; ! "bond"
+ago:ago N1 ; ! "defense"
+agu:agu N1 ; ! "tiger"
+agwa:agwa N1 ; ! "character"
+ahịa:ahịa N1 ; ! "market"
+ahihia:ahihia N1 ; ! "grass"
+ahu:ahu N1 ; ! "body"
+aji:aji N1 ; ! "wool"
+ajuju:ajuju N1 ; ! "question"
+aka:aka N1 ; ! "hand"
+akpa:akpa N1 ; ! "bag"
+akpi:akpi N1 ; ! "scorpion"
+akpu:akpu N1 ; ! "knob"
+akpụkpọ:akpụkpọ N1 ; ! "shoes"
+akwa:akwa N1 ; ! "cloth"
+akwụkwọ:akwụkwọ N1 ; ! "book"
+ala:ala N1 ; ! "earth"
+alaka:alaka N1 ; ! "branch"
+amadi:amadi N1 ; ! "gentleman"
+anụ:anụ N1 ; ! "meat"
+anya:anya N1 ; ! "eye"
+arọ:arọ N1 ; ! "arrow"
+aturu:aturu N1 ; ! "sheep"
+azu:azu N1 ; ! "fish"
+bọta:bọta N1 ; ! "butter"
+chiiz:chiiz N1 ; ! "cheese"
+di:di N1 ; ! "husband"
+ẹbẹ:ẹbẹ N1 ; ! "apology"
+ebo:ebo N1 ; ! "tribe"
+echebe:echebe N1 ; ! "protection"
+ehi:ehi N1 ; ! "cow"
+enyì:enyì N1 ; ! "friend"
+eze:eze N1 ; ! "king"
+Ifẹ:Ifẹ N1 ; ! "love"
+igba:igba N1 ; ! "season"
+igwe:igwe N1 ; ! "weather"
+ihu:ihu N1 ; ! "face"
+ihunaanya:ihunaanya N1 ; ! "love"
+íjè:íjè N1 ; ! "movement"
+ijèọma:ijèọma N1 ; ! "farewell"
+ikuku:ikuku N1 ; ! "air"
+imi:imi N1 ; ! "nose"
+ịnyịnya:ịnyịnya N1 ; ! "horse"
+ire:ire N1 ; ! "tongue"
+iro:iro N1 ; ! "enemy"
+iru:iru N1 ; ! "security"
+isi:isi N1 ; ! "odor"
+ite:ite N1 ; ! "pot"
+iyi:iyi N1 ; ! "stream"
+kọfị:kọfị N1 ; ! "coffee"
+mbà:mbà N1 ; ! "depression"
+mbido:mbido N1 ; ! "origin"
+mkpisi:mkpisi N1 ; ! "stick"
+mkpụrụ:mkpụrụ N1 ; ! "fruit"
+mma:mma N1 ; ! "quality"
+mmechị:mmechị N1 ; ! "conclusion"
+mmiri:mmiri N1 ; ! "water"
+ndụ:ndụ N1 ; ! "life"
+ndụdụ:ndụdụ N1 ; ! "fork"
+ngaji:ngaji N1 ; ! "spoon"
+nkịta:nkịta N1 ; ! "dog"
+nku:nku N1 ; ! "wood"
+nnà:nnà N1 ; ! "father"
+nne:nne N1 ; ! "mother"
+ńnú:ńnú N1 ; ! "salt"
+nri:nri N1 ; ! "food"
+nsogbu:nsogbu N1 ; ! "problem"
+ntị:ntị N1 ; ! "listen"
+ntụ:ntụ N1 ; ! "flour"
+ntutu:ntutu N1 ; ! "hair"
+nwa:nwa N1 ; ! "son"
+nwanyi:nwanyi N1 ; ! "woman"
+nwoke:nwoke N1 ; ! "man"
+obara:obara N1 ; ! "blood"
+obi:obi N1 ; ! "heart"
+obianuohia:obianuohia N1 ; ! "park"
+obodo:obodo N1 ; ! "city"
+oche:oche N1 ; ! "seat"
+ọdọ:ọdọ N1 ; ! "lake"
+ọdụm:ọdụm N1 ; ! "lion"
+ohia:ohia N1 ; ! "forest"
+ọka:ọka N1 ; ! "corn"
+oké:oké N1 ; ! "border"
+okpara:okpara N1 ; ! "son"
+okpu:okpu N1 ; ! "hat"
+okpueze:okpueze N1 ; ! "crown"
+ọkụ:ọkụ N1 ; ! "fire"
+ọkụkọ:ọkụkọ N1 ; ! "chicken"
+ọkụkụ:ọkụkụ N1 ; ! "plant"
+ọlụ:ọlụ N1 ; ! "neck"
+ọma:ọma N1 ; ! "well"
+ọnụ:ọnụ N1 ; ! "together"
+onwa:onwa N1 ; ! "month"
+osimiri:osimiri N1 ; ! "sea"
+osísí:osísí N1 ; ! "tree"
+sanwich:sanwich N1 ; ! "sandwich"
+taa:taa N1 ; ! "tar"
+ube:ube N1 ; ! "spear"
+ubi:ubi N1 ; ! "field"
+uchichi:uchichi N1 ; ! "night"
+ufereoyi:ufereoyi N1 ; ! "wind"
+ugbo:ugbo N1 ; ! "vehicle"
+ugwu:ugwu N1 ; ! "mountain"
+ukwu:ukwu N1 ; ! "foot"
+ụlọ:ụlọ N1 ; ! "house"
+ụra:ụra N1 ; ! "sleep"
+urupuru:urupuru N1 ; ! "cloud"
+usoro:usoro N1 ; ! "format"
+ututu:ututu N1 ; ! "morning"
+ụwa:ụwa N1 ; ! "world"
+uwe:uwe N1 ; ! "shirt"
+ụzọ:ụzọ N1 ; ! "way"
+
+!=============!
+ LEXICON Verbs
+!=============!
+
+iri:ri VBLEX ; ! "eat"
+ibụ:ibụ VBLEX ; ! "be"
+idi:idi VBLEX ; ! "be"
+iwẹ:iwẹ VBLEX ; ! "have"
+imẹ:imẹ VBLEX ; ! "make"
+isi:isi VBLEX ; ! "say"
+ijẹ:ijẹ VBLEX ; ! "go"
+ima:ima VBLEX ; ! "know"
+ifụ:ifụ VBLEX ; ! "see"
+ibia:ibia VBLEX ; ! "come"
+ichẹ:ichẹ VBLEX ; ! "think"
+inẹ:inẹ VBLEX ; ! "look"
+ichọ:ichọ VBLEX ; ! "want"
+inyẹ:inyẹ VBLEX ; ! "give"
+iji:iji VBLEX ; ! "use"
+igwa:igwa VBLEX ; ! "tell"
+ijụ:ijụ VBLEX ; ! "ask"
+ilu:ilu VBLEX ; ! "work"
+ili:ili VBLEX ; ! "eat"
+irapụ:irapụ VBLEX ; ! "leave"
+ikpọ:ikpọ VBLEX ; ! "call"
+ichu:ichu VBLEX ; ! "chase"
+ide:ide VBLEX ; ! "write"
+igafe:igafe VBLEX ; ! "pass"
+igba:igba VBLEX ; ! "dance"
+igbachi:igbachi VBLEX ; ! "lock"
+icheta:icheta VBLEX ; ! "remember"
+ikagbu:ikagbu VBLEX ; ! "cancel"
+iga:iga VBLEX ; ! "walk"
+inodu:inodu VBLEX ; ! "sit"
+itu:itu VBLEX ; ! "throw" 
+
+
+
+
+! Resources:
+! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
+! http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
+! http://wiki.apertium.org/wiki/Apertium-specific_conventions_for_lexc
+! https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
+! http://hfst.sourceforge.net/
+! http://www.cis.upenn.edu/~cis639/docs/lexc.html
+! http://wiki.apertium.org/wiki/Hfst
+
