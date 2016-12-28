@@ -180,6 +180,7 @@ uwe:uwe N1 ; ! "shirt"
 
 iri:ri V ; ! "eat"
 ibi:bi V ; ! "live"
+iga:ga V ; ! "walk"
 
 ibụ:ibụ V ; ! "be"
 idi:idi V ; ! "be"
@@ -208,7 +209,6 @@ igba:igba V ; ! "dance"
 igbachi:igbachi V ; ! "lock"
 icheta:icheta V ; ! "remember"
 ikagbu:ikagbu V ; ! "cancel"
-iga:iga V ; ! "walk"
 inodu:inodu V ; ! "sit"
 itu:itu V ; ! "throw" 
 
