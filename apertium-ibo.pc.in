@@ -3,6 +3,6 @@ exec_prefix=${prefix}
 srcdir=@datarootdir@/apertium/apertium-ibo
 
 Name: apertium-ibo
-Description: Finite-state morphological transducer and constraint grammar for Igbo 
+Description: Finite-state morphological transducer and constraint grammar for Igbo
 Version: @VERSION@
 
