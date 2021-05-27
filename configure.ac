@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Igbo], [0.1.0], [apertium-stuff@lists.sourceforge.net], [apertium-ibo], [http://wiki.apertium.org/wiki/Apertium-ibo])
+AC_INIT([Apertium Igbo], [0.1.0], [apertium-stuff@lists.sourceforge.net], [apertium-ibo], [https://wiki.apertium.org/wiki/Apertium-ibo])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
