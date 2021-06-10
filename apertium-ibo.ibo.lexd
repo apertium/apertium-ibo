@@ -51,10 +51,15 @@ LEXICON PRN
 <prn>:
 
 LEXICON V-Affixes(3)
+# this lexicon consists of 3 columns:
+# - prefix
+# - suffix
+# - tags
+# each row can be any combination of these
 
-:i>   :     <inf>:
-:{A}> :     <prc>:
-:     :ra   <past>:
+:i>     :      <inf>:
+:{A}>   :      <prc>:
+:       :ra    <past>:
 
 
 
