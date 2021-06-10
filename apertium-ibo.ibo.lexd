@@ -33,7 +33,7 @@
 PATTERNS
 Nouns N1
 Pronouns PRN
-:V(1) Verbs V(1):
+:V-Affixes(1) Verbs [<v>:] :V-Affixes(2) V-Affixes(3)
 Numerals [<num>:]
 Prepositions [<pr>:]
 Adjectives [<adj>:]
@@ -50,10 +50,12 @@ LEXICON PRN
 
 <prn>:
 
-LEXICON V(2)
+LEXICON V-Affixes(3)
 
-:i>   <v><inf>:
-:{A}> <v><prc>:
+:i>   :     <inf>:
+:{A}> :     <prc>:
+:     :ra   <past>:
+
 
 
 ###############################################################################
@@ -233,7 +235,7 @@ azịza:azịza     # "answer"
 ajụjụ:ajụjụ   # "question"
 nọ:nọ    # "is, are"
 chọta:chọta     # "find"
-chọtara:chọtara   # "found"
+#chọtara:chọtara   # "found"
 ga:ga   # "must"
 ibụ:bụ   # "be"
 idi:di   # "be"
@@ -242,9 +244,9 @@ imẹ:mẹ   # "make"
 isi:si   # "say"
 kwuoo:kwuoo   # "says"
 ijẹ:jẹ   # "go"
-gara:gara   # "went"
+#gara:gara   # "went"
 ima:ma   # "know"
-maara:maara   # "knows"
+#maara:maara   # "knows"
 ifụ:fụ   # "see"
 ibia:bia   # "come"
 ichẹ:chẹ   # "think"
@@ -268,9 +270,9 @@ icheta:cheta   # "remember"
 ikagbu:kagbu   # "cancel"
 inodu:nodu   # "sit"
 itu:tu   # "throw" 
-eme:me   # "does, doing"
+#eme:me   # "does, doing"
 ime:me   # "do"
-mere:mere   # "did"
+#mere:mere   # "did"
 inwa:nwa   # "try"
 iwo:wo   # "become"
 ibido:bido   # "begin"
