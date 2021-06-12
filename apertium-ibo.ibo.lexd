@@ -57,9 +57,11 @@ LEXICON V-Affixes(3)
 # - tags
 # each row can be any combination of these
 
-:i>   :     <inf>:
-:{A}> :     <prc>:
-:     :ra   <past>:
+:i>     :      <inf>:
+:{A}>   :      <prc>:
+:       :ra    <past>:
+
+
 
 ###############################################################################
 ###                          L E X I C O N                                  ###
@@ -69,6 +71,7 @@ LEXICON V-Affixes(3)
 #=============#
  LEXICON Nouns
 #=============#
+
 nnà:nnà # "father"
 nne:nne   # "mother"
 nwanyi:nwanyi  # "woman"
@@ -272,7 +275,6 @@ usoro:usoro   # "format"
 egwuregwu:egwuregwu   # "game"
 n'ime:n'ime   # "inside"
 
-
 #================#
  LEXICON Pronouns
 #================#
@@ -289,7 +291,7 @@ ha-abụọ:ha-abụọ     # "both"
 ọzọ:ọzọ     # "another"
 ha:ha     # "they"
 nkaa:nkaa     # "that"
-ihe-obula:ihe-obula  # "everything, anything"
+ihe-obula:ihe-obula     # "everything, anything"
 
 
 #=============#
@@ -305,22 +307,22 @@ azịza:azịza     # "answer"
 ajụjụ:ajụjụ   # "question"
 nọ:nọ    # "is, are"
 chọta:chọta     # "find"
-chọtara:chọtara   # "found"
+#chọtara:chọtara   # "found"
 ga:ga   # "must"
 ibụ:bụ   # "be"
 idi:di   # "be"
 nwere:nwere   # "have, has"
-imẹ:imẹ   # "make"
+imẹ:mẹ   # "make"
 isi:si   # "say"
 kwuoo:kwuoo   # "says"
 ijẹ:jẹ   # "go"
-gara:gara   # "went"
+#gara:gara   # "went"
 ima:ma   # "know"
-maara:maara   # "knows"
+#maara:maara   # "knows"
 ifụ:fụ   # "see"
 ibia:bia   # "come"
 ichẹ:chẹ   # "think"
-#chee:chee   # "thinks"
+chee:chee   # "thinks"
 inẹ:nẹ   # "look"
 lee-anya:lee-anya     # "looks"
 choo:choo   # "want"
@@ -340,12 +342,12 @@ icheta:cheta   # "remember"
 ikagbu:kagbu   # "cancel"
 inodu:nodu   # "sit"
 itu:tu   # "throw" 
-eme:me   # "does, doing"
+#eme:me   # "does, doing"
 ime:me   # "do"
-mere:mere   # "did"
-inwa:inwa   # "try"
-iwo:iwo   # "become"
-ibido:ibido   # "begin"
+#mere:mere   # "did"
+inwa:nwa   # "try"
+iwo:wo   # "become"
+ibido:bido   # "begin"
 ezigbo:ezigbo    # "very"
 ụda:ụda   # "sound"
 nwere-ike:nwere-ike     # "can"
@@ -371,6 +373,7 @@ mmasị:mmasị     # "likes"
 #=================#
  LEXICON Adjectives
 #=================#
+
 iwe:iwe	# "angry"
 ọjọọ:ọjọọ	# "bad"
 nnukwu:nnukwu	# "big"
@@ -436,6 +439,7 @@ odo-odo:odo-odo  # "purple"
 ọla-ọcha:Ọla-ọcha  # "silver"
 edo-edo:edo-edo   # "yellow"
 ọcha:ọcha	# "white"
+
 
 #===================#
  LEXICON Prepositions
@@ -589,10 +593,9 @@ LEXICON Punctuation
 # Resources:
 # https://github.com/apertium/lexd/blob/master/Usage.md
 # https://wiki.apertium.org/wiki/List_of_symbols
-# http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
-# http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
-# http://wiki.apertium.org/wiki/Apertium-specific_conventions_for_lexc
+# https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
+# https://wiki.apertium.org/wiki/Lttoolbox_and_lexc
+# https://wiki.apertium.org/wiki/Apertium-specific_conventions_for_lexc
 # https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
 # https://github.com/hfst/
-# http://wiki.apertium.org/wiki/Hfst
-
+# https://wiki.apertium.org/wiki/Hfst
