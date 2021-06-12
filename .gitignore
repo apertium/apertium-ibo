@@ -19,3 +19,6 @@
 /config
 /*.prob
 /*.hfst
+/history.log
+/*.txt
+/coverage-hfst.sh
