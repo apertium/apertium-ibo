@@ -34,12 +34,13 @@ PATTERNS
 Nouns N1
 Pronouns PRN
 :V-Affixes(1) Verbs [<v>:] :V-Affixes(2) V-Affixes(3)
-Numerals [<num>:]
+Numbers [<num>:]
 Prepositions [<pr>:]
 Adjectives [<adj>:]
 Adverbs [<adv>:]
 Conjunction
 Determiner [<det>:]
+Numerals
 Punctuation
 
 LEXICON N1
@@ -531,7 +532,7 @@ ya:ya     # "her, his, him"
 a:a     # "a"
 
 #===============#
- LEXICON Numerals
+ LEXICON Numbers
 #===============#
 
 otu:otu   # "1"
@@ -563,6 +564,21 @@ nde:nde   # "1,000,000"
 ijeri:ijeri   # "1,000,000,000"
 ökara:ökara   # "1/2"
 
+LEXICON Numeral
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+PATTERN Numerals
+Numeral+ [<num>:]
+Numeral+ ([.]|[,]) Numeral+ [<num>:]
 
 LEXICON Punctuation
 
