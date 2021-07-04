@@ -32,7 +32,7 @@
 
 PATTERNS
 Nouns N1
-Pronouns PRN
+Pronouns(1) [<prn>:] Pronouns(2)
 :V-Affixes(1) Verbs [<v>:] :V-Affixes(2) V-Affixes(3)
 Numbers [<num>:]
 Prepositions [<pr>:]
@@ -42,14 +42,11 @@ Conjunction
 Determiner [<det>:]
 Numerals
 Punctuation
+Misc
 
 LEXICON N1
 
 <n>:
-
-LEXICON PRN
-
-<prn>:
 
 LEXICON V-Affixes(3)
 # this lexicon consists of 3 columns:
@@ -236,7 +233,7 @@ mbuzu:mbuzu  # "cricket"
 ebe:ebe   # "beetle"
 chinchi:chinchi  # "bed bug"
 iji:iji	# "fly"
-anwụnta:anwụnta# "mosquito"
+anwụnta:anwụnta # "mosquito"
 ụkpana:ụkpana  # "grasshopper"
 okongono:okongono # "praying mantis"
 idide:idide  # "earth worm"
@@ -367,29 +364,26 @@ Jenụwarị:Jenụwarị   # "January"
 
 
 #================#
- LEXICON Pronouns
+ LEXICON Pronouns(2)
 #================#
-m:m      # "I"
-ọ:ọ     # "she, he"
-mụ:mụ   # "me"
-ya:ya     # "him, her, it"
-ụnụ:ụnụ    # "you, yours"
-ha:ha     # "they, their"
-anyị:anyị     # "we, us, ours"
-gini:gini     # "what"
-onye:onye     # "who"
-kedu\ nke:kedu\ nke   # "which"
-maka\ gịnị:maka\ gịnị   # "why"
-kedu\ mgbe:kedu\ mgbe   # "when"
-kedu\ ebe:kedu\ ebe   # "where"
-kedu\ ka:kedu\ ka   # "how"
-gị:gị     # "you"
-ihe:ihe     # "somthing"
-ụfọdụ:ụfọdụ     # "some"
-ha-abụọ:ha-abụọ     # "both"
-ọzọ:ọzọ     # "another"
-nkaa:nkaa     # "that"
-ihe-obula:ihe-obula     # "everything, anything"
+m:m           <pers><p1><sg><subj>:   # "I"
+nke-m:nke-m   <pers><p1><sg><poss>:   # "my"
+mụ:mụ         <pers><p1><sg><obj>:    # "me"
+ụnụ:ụnụ       <pers><p2><sg><subj>:   # "you, yours"
+gị:gị         <pers><p2><sg><obj>:    # "you"
+nke-gi:nke-gi <pers><p2><sg><poss>:   # "your, yours"
+ọ:ọ           <pers><p3><sg><subj>:   # "she, he"
+ya:ya         <pers><p3><sg><obj>:    # "him, her, it"
+ya:ya         <pers><p3><sg><poss>:   # "her, his, him"
+anyị:anyị     <pers><p1><pl><subj>:   # "we, us, ours"
+ha:ha         <pers><p3><pl><subj>:   # "they, their"
+ha:ha         <pers><p3><pl><poss>:   # "their"
+gini:gini     <itg>    # "what"
+onye:onye     <itg>    # "who"
+nkaa:nkaa     <dem>    # "that"
+ihe:ihe       <ind>    # "something"
+ihe-obula:ihe-obula <ind>   # "everything, anything"
+
 
 
 
@@ -635,7 +629,7 @@ n'ezie:n'ezie   # "actually, certainly"
 emesia:emesia   # "afterwards"
 kwa\ afọ:kwa\ afọ   # "annually"
 n’enwe\ nchegbu:n’enwe\ nchegbu   # "anxiously"
-ji\ mpako:ji mpako   # "arrogantly"
+ji\ mpako:ji\ mpako   # "arrogantly"
 mara\ mma:mara\ mma   # "beautifully, elegantly"
 ilu:ilu   # "bitterly"
 kpuru\ ìsì:kpuru\ ìsì    # "blindly"
@@ -653,7 +647,7 @@ n'ụzọ\ doro\ anya:n'ụzọ\ doro\ anya   # "clearly"
 jiri\ amamihe:jiri\ amamihe       # "cleverly"
 nso:nso     # "closely"
 acha:acha    # "colorfully"
-ọtụtụ mgbe:ọtụtụ mgbe   # "commonly"
+ọtụtụ\ mgbe:ọtụtụ\ mgbe   # "commonly"
 dị\ jụụ:dị\ jụụ      # "cooly"
 n'ụzọ\ ziri\ ezi:n'ụzọ\ ziri\ ezi    # "correctly"
 obi\ ike:obi\ ike    # "courageously"
@@ -675,9 +669,17 @@ ohiha:ohiha   # "equally"
 karịsịa:karịsịa   # "especially"
 ọbụna:ọbụna    # "evenly"
 n'ikpeazụ:n'ikpeazụ    # "eventually"
-kpom kwem:kpom kwem     # "exactly"
+kpom\ kwem:kpom\ kwem     # "exactly"
 
 
+#=================#
+ LEXICON Misc
+#=================#
+
+maka\ gịnị<adv><itg>:maka\ gịnị   # "why"
+kedu\ mgbe<adv><itg>:kedu\ mgbe   # "when"
+kedu\ ebe<adv><itg>:kedu\ ebe     # "where"
+kedu\ ka<adv><itg>:kedu\ ka       # "how"
 
 
 
@@ -691,14 +693,15 @@ mana<cnjcoo>:mana      # "but"
 ọ-bụ-ezie-na<cnjsub>:ọ-bụ-ezie-na      # "although"
 
 #=================#
- LEXICON Determiner
+ LEXICON Determiner(2)
 #=================#
 
-nke-m:nke-m     # "my"
-nke-gi:nke-gi     # "your, yours"
-ha:ha     # "their"
-ya:ya     # "her, his, him"
-a:a     # "a"
+a:a                    <ind>  # "a"
+kedu\ nke:kedu\ nke    <itg>  # "which"
+ụfọdụ:ụfọdụ            <ind>  # "some"
+ha-abụọ:ha-abụọ        <ind>  # "both"
+ọzọ:ọzọ                <ind>  # "another"
+
 
 #===============#
  LEXICON Numbers
