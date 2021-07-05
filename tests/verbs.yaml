@@ -1,6 +1,6 @@
 Config:
   hfst:
-    App: hfst-optimised-lookup
+    App: hfst-lookup
     Gen: ../ibo.autogen.hfst
     Morph: ../ibo.automorf.hfst
 
@@ -13,11 +13,11 @@ Tests:
     iri<v><tv><fut>: ga-eri
   
   "ibi":
-    ibi<v><aff>: ibi
-    ibi<v><pres>: bi
-    ibi<v><past>: bibi
-    ibi<v><cont>: na-ebi
-    ibi<v><fut>: ga-ebi
+    ibi<v><iv><aff>: ibi
+    ibi<v><iv><pres>: bi
+    ibi<v><iv><past>: bibi
+    ibi<v><iv><cont>: na-ebi
+    ibi<v><iv><fut>: ga-ebi
   
   "ịga":
     ịga<v><tv><aff>: ịga
@@ -281,11 +281,11 @@ Tests:
     "igwu egwu<v><tv><fut>": "ga-egwu egwu"  
       
   "igba oso":
-    "igba oso<v><tv><aff>": igba oso"
-    "igba oso<v><tv><pres>": gba oso"
-    "igba oso<v><tv><past>": gbara oso"
-    "igba oso<v><tv><cont>": na-agba oso"
-    "igba oso<v><tv><fut>": ga-agba oso"    
+    "igba oso<v><tv><aff>": "igba oso"
+    "igba oso<v><tv><pres>": "gba oso"
+    "igba oso<v><tv><past>": "gbara oso"
+    "igba oso<v><tv><cont>": "na-agba oso"
+    "igba oso<v><tv><fut>": "ga-agba oso"    
      
   "izo ezo":
     "izo ezo<v><tv><aff>": "izo ezo"
