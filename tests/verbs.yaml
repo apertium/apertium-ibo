@@ -6,320 +6,304 @@ Config:
 
 Tests:
   "iri":
-	  iri<v><tv><aff>: iri
-	  iri<v><tv><pres>: ri
-	  iri<v><tv><past>: ribi
-	  iri<v><tv><cont>: na-eri
-	  iri<v><tv><fut>: ga-eri
+    iri<v><tv><aff>: iri
+    iri<v><tv><pres>: ri
+    iri<v><tv><past>: ribi
+    iri<v><tv><cont>: na-eri
+    iri<v><tv><fut>: ga-eri
   
   "ibi":
-	  ibi<v><aff>: ibi
-	  ibi<v><pres>: bi
-	  ibi<v><past>: bibi
-	  ibi<v><cont>: na-ebi
-	  ibi<v><fut>: ga-ebi
+    ibi<v><aff>: ibi
+    ibi<v><pres>: bi
+    ibi<v><past>: bibi
+    ibi<v><cont>: na-ebi
+    ibi<v><fut>: ga-ebi
   
   "ịga":
-	  ịga<v><tv><aff>: ịga
-	  ịga<v><tv><pres>: ga
-	  ịga<v><tv><past>: gara
-	  ịga<v><tv><cont>: na-aga
-	  ịga<v><tv><fut>: ga-aga
-  
-  
+    ịga<v><tv><aff>: ịga
+    ịga<v><tv><pres>: ga
+    ịga<v><tv><past>: gara
+    ịga<v><tv><cont>: na-aga
+    ịga<v><tv><fut>: ga-aga
+
   "ịza":
-	  ịza<v><tv><aff>: ịza
-	  ịza<v><tv><pres>: za
-	  ịza<v><tv><past>: zara
-	  ịza<v><tv><cont>: na-aza
-	  ịza<v><tv><fut>: ga-aza
-	  
-	  
-  "ibu"
-	  ibu<v><tv><aff>: ibụ
-	  ibu<v><tv><sg><p1><pres>: m
-	  ibu<v><tv><sg><p2><pres>: bụ
-	  ibu<v><tv><sg><p3><pres>: di
-	  ibu<v><tv><pl><pres>: bụ
-	  ibu<v><tv><past>: nọ
-	  iga<v><tv><fut>: ga-nọ
+    ịza<v><tv><aff>: ịza
+    ịza<v><tv><pres>: za
+    ịza<v><tv><past>: zara
+    ịza<v><tv><cont>: na-aza
+    ịza<v><tv><fut>: ga-aza
+
+  "ibu":
+    ibu<v><tv><aff>: ibụ
+    ibu<v><tv><sg><p1><pres>: m
+    ibu<v><tv><sg><p2><pres>: bụ
+    ibu<v><tv><sg><p3><pres>: di
+    ibu<v><tv><pl><pres>: bụ
+    ibu<v><tv><past>: nọ
+    iga<v><tv><fut>: ga-nọ
   
   "ịchọta":
-	  ịchọta<v><tv><aff>: ịchọta
-	  ịchọta<v><tv><pres>: chọta
-	  ịchọta<v><tv><past>: chọtara
-	  ịchọta<v><tv><cont>: na-achọta
-	  ịchọta<v><tv><fut>: ga-achọta
-	  
+    ịchọta<v><tv><aff>: ịchọta
+    ịchọta<v><tv><pres>: chọta
+    ịchọta<v><tv><past>: chọtara
+    ịchọta<v><tv><cont>: na-achọta
+    ịchọta<v><tv><fut>: ga-achọta
+    
   "inwe":
-	  inwe<v><tv><aff>: inwe
-	  inwe<v><tv><pres>: nwe
-	  inwe<v><tv><past>: nwere
-	  inwe<v><tv><cont>: na-enwe
-	  inwe<v><tv><fut>: ga-enwe
+    inwe<v><tv><aff>: inwe
+    inwe<v><tv><pres>: nwe
+    inwe<v><tv><past>: nwere
+    inwe<v><tv><cont>: na-enwe
+    inwe<v><tv><fut>: ga-enwe
   
   "ime":
-	  ime<v><tv><aff>: ime
-	  ime<v><tv><pres>: me
-	  ime<v><tv><past>: mere
-	  ime<v><tv><cont>: na-eme
-	  ime<v><tv><fut>: ga-eme
+    ime<v><tv><aff>: ime
+    ime<v><tv><pres>: me
+    ime<v><tv><past>: mere
+    ime<v><tv><cont>: na-eme
+    ime<v><tv><fut>: ga-eme
 
-	"ikwu":
-	  ikwu<v><tv><aff>: ikwu
-	  ikwu<v><tv><pres>: kwu
-	  ikwu<v><tv><past>: kwuru
-	  ikwu<v><tv><cont>: na-ekwu
-	  ikwu<v><tv><fut>: ga-ekwu  
-	  
-	"ije":
-			ije<v><tv><aff>: ije
-			ije<v><tv><pres>: je
-			ije<v><tv><past>: jere
-			ije<v><tv><cont>: na-eje
-			ije<v><tv><fut>: ga-eje 
-		
-	"ịma":
-			ịma<v><tv><aff>: ịma
-			ịma<v><tv><pres>: ma
-			ịma<v><tv><past>: mara
-			ịma<v><tv><cont>: na-ama
-			ịma<v><tv><fut>: ga-ama 
-		
-	"ịhụ":
-		ịhụ<v><tv><aff>: ịhụ
-		ihụ<v><tv><pres>: hụ
-		ihụ<v><tv><past>: hụrụ
-		ihụ<v><tv><cont>: na-ahụ
-		ihụ<v><tv><fut>: ga-ahụ
-			
-	"ibia":
-		ibia<v><tv><aff>: ibia
-		ibia<v><tv><pres>: bia
-		ibia<v><tv><past>: biara
-		ibia<v><tv><cont>: na-abia
-		ibia<v><tv><fut>: ga-abia  
-			
-	"iche":
-		iche<v><tv><aff>: iche
-		iche<v><tv><pres>: che
-		iche<v><tv><past>: chere
-		iche<v><tv><cont>: na-eche
-		iche<v><tv><fut>: ga-eche
-			
-	"ine":
-		ine<v><tv><aff>: ine
-		ine<v><tv><pres>: ne
-		ine<v><tv><past>: nere
-		ine<v><tv><cont>: na-ene
-		ine<v><tv><fut>: ga-ene  
-		
-	"chọrọ":
-		chọrọ<v><tv><aff>: chọrọ
-		chọrọ<v><tv><pres>: chọrọ
-		chọrọ<v><tv><past>: chọrọ
-		chọrọ<v><tv><cont>: na-achọ
-		chọrọ<v><tv><fut>: ga-achọ
-			
-	"inye":
-		inye<v><tv><aff>: inye
-		inye<v><tv><pres>: nye
-		inye<v><tv><past>: nyere
-		inye<v><tv><cont>: na-enye
-		inye<v><tv><fut>: ga-enye
-
-	"ịgwa":
-		ịgwa<v><tv><aff>: ịgwa
-		ịgwa<v><tv><pres>: gwa
-		ịgwa<v><tv><past>: gwara
-		ịgwa<v><tv><cont>: na-agwa
-		ịgwa<v><tv><fut>: ga-agwa
-			
-	"ịjụ":
-		ịjụ<v><tv><aff>: ịjụ
-		ịjụ<v><tv><pres>: jụ
-		ịjụ<v><tv><past>: jụrụ
-		ịjụ<v><tv><cont>: na-ajụ
-		ịjụ<v><tv><fut>: ga-ajụ
-			
-	"irụ":
-		irụ<v><tv><aff>: irụ
-		irụ<v><tv><pres>: rụ
-		irụ<v><tv><past>: rụrụ
-		irụ<v><tv><cont>: na-arụ
-		irụ<v><tv><fut>: ga-arụ
-			
-	"ịhapụ":
-		ịhapụ<v><tv><aff>: ịhapụ
-		ịhapụ<v><tv><pres>: hapụ
-		ịhapụ<v><tv><past>: hapụrụ
-		ịhapụ<v><tv><cont>: na-ahapụ
-		ịhapụ<v><tv><fut>: ga-ahapụ
-			
-	"ịkpọ":
-		ịkpọ<v><tv><aff>: ịkpọ
-		ịkpọ<v><tv><pres>: kpọ
-		ịkpọ<v><tv><past>: kpọrọ
-		ịkpọ<v><tv><cont>: na-akpọ
-		ịkpọ<v><tv><fut>: ga-akpọ
-			
-	"ịchụ":
-		ịchụ<v><tv><aff>: ịchụ
-		ịchụ<v><tv><pres>: chụ
-		ịchụ<v><tv><past>: chụrụ
-		ịchụ<v><tv><cont>: na-achụ
-		ịchụ<v><tv><fut>: ga-achụ
-			
-	"ide":
-		ide<v><tv><aff>: ide
-		ide<v><tv><pres>: de
-		ide<v><tv><past>: dere
-		ide<v><tv><cont>: na-ede
-		ide<v><tv><fut>: ga-ede
-			
-	"ịgafe":
-		ịgafe<v><tv><aff>: ịgafe
-		ịgafe<v><tv><pres>: gafe
-		ịgafe<v><tv><past>: gafere
-		ịgafe<v><tv><cont>: na-agafe
-		ịgafe<v><tv><fut>: ga-agafe
-			
-	"ịgba":
-		ịgba<v><tv><aff>: ịgba
-		ịgba<v><tv><pres>: gba
-		ịgba<v><tv><past>: gbara
-		ịgba<v><tv><cont>: na-agba
-		ịgba<v><tv><fut>: ga-agba
-			
-	"igbachi":
-		igbachi<v><tv><aff>: igbachi
-		igbachi<v><tv><pres>: gbachi
-		igbachi<v><tv><past>: gbachiri
-		igbachi<v><tv><cont>: na-agbachi
-		igbachi<v><tv><fut>: ga-gabachi
-			
-	"icheta":
-		icheta<v><tv><aff>: icheta
-		icheta<v><tv><pres>: cheta
-		icheta<v><tv><past>: chetara
-		icheta<v><tv><cont>: na-cheta
-		icheta<v><tv><fut>: ga-cheta
-		
-	"ịkagbu":
-		ịkagbu<v><tv><aff>: ịkagbu
-		ịkagbu<v><tv><pres>: kagbu
-		ịkagbu<v><tv><past>: kagburu
-		ịkagbu<v><tv><cont>: na-akagbu
-		ịkagbu<v><tv><fut>: ga-akagbu            
-			
-	"ịnọdụ":
-		ịnọdụ<v><tv><aff>: ịnọdụ
-		ịnọdụ<v><tv><pres>: nọdụ
-		ịnọdụ<v><tv><past>: nọdụrụ
-		ịnọdụ<v><tv><cont>: na-anọdụ
-		ịnọdụ<v><tv><fut>: ga-anọdụ  
-
-	"itu":
-		itu<v><tv><aff>: itu
-		itu<v><tv><pres>: tu
-		itu<v><tv><past>: turu
-		itu<v><tv><cont>: na-atu
-		itu<v><tv><fut>: ga-atu    
-		
-	"ịmalite":
-		ịmalite<v><tv><aff>: ịmalite
-		ịmalite<v><tv><pres>: malite
-		ịmalite<v><tv><past>: malitere
-		ịmalite<v><tv><cont>: na-amalite
-		ịmalite<v><tv><fut>: ga-amalite  
-	
-	"ịnụọ":
-		ịnụọ<v><tv><aff>: ịnụọ
-		ịnụọ<v><tv><pres>: nụọ
-		ịnụọ<v><tv><past>: nụọrụ
-		ịnụọ<v><tv><cont>: na-anụọ
-		ịnụọ<v><tv><fut>: ga-anụọ  
-	
-	"ịzaghachi":
-		ịzaghachi<v><tv><aff>: ịzaghachi
-		ịzaghachi<v><tv><pres>: zaghachi
-		ịzaghachi<v><tv><past>: zaghachiri
-		ịzaghachi<v><tv><cont>: na-azaghachi
-		ịzaghachi<v><tv><fut>: ga-azaghachi	  
-
-	"inweta":
-		inweta<v><tv><aff>: inweta
-		inweta<v><tv><pres>: nweta
-		inweta<v><tv><past>: nwetara
-		inweta<v><tv><cont>: na-enweta
-		inweta<v><tv><fut>: ga-enweta
-
-
-	"ịnụ":
-		ịnụ<v><tv><aff>: ịnụ
-		ịnụ<v><tv><pres>: nụ
-		ịnụ<v><tv><past>: nụrụ
-		ịnụ<v><tv><cont>: na-anụ
-		ịnụ<v><tv><fut>: ga-anụ	
-			
-	"chị ọchị ":
-		"ịchị ọchị"<v><tv><aff>: "ịchị ọchị"
-		"ịchị ọchị"<v><tv><pres>: "chịa ọchị"
-		"ịchị ọchị"<v><tv><past>: "chịrị ọchị"
-		"ịchị ọchị"<v><tv><cont>: "na-achị ọchị" 
-		"ịchị ọchị"<v><tv><fut>: "ga-achị ọchị" 
-		
- 
-		
-	"ịge ntị":
-		"ịge ntị"<v><tv><aff>: "ịge ntị"
-		"ịge ntị"<v><tv><pres>: "ge ntị"
-		"ịge ntị"<v><tv><past>: "gere ntị"
-		"ịge ntị"<v><tv><cont>: "na-ege ntị"
-		"ịge ntị"<v><tv><fut>: "ga-ege ntị"	  
-	 
-	"igwu egwu":
-		"igwu egwu"<v><tv><aff>: "igwu egwu"
-		"igwu egwu"<v><tv><pres>: "gwu egwu"
-		"igwu egwu"<v><tv><past>: "gwuru egwu"
-		"igwu egwu"<v><tv><cont>: "na-egwu egwu"
-		"igwu egwu"<v><tv><fut>: "ga-egwu egwu"	
-			
-	"igba oso":
-		"igba oso"<v><tv><aff>: igba oso"
-		"igba oso"<v><tv><pres>: gba oso"
-		"igba oso"<v><tv><past>: gbara oso"
-		"igba oso"<v><tv><cont>: na-agba oso"
-		"igba oso"<v><tv><fut>: ga-agba oso"	  
-		 
-	"izo ezo":
-		"izo ezo"<v><tv><aff>: "izo ezo"
-		"izo ezo"<v><tv><pres>: "izo ezo"
-		"izo ezo"<v><tv><past>: "izo ezo"
-		"izo ezo"<v><tv><cont>: "na-izo ezo"
-		"izo ezo"<v><tv><fut>: "ga-izo ezo"	  
-		
-	"ikwu okwu":
-		"ikwu okwu"<v><tv><aff>: "ikwu okwu"
-		"ikwu okwu"<v><tv><pres>: "kwu okwu"
-		"ikwu okwu"<v><tv><past>: "kwuru okwu"
-		"ikwu okwu"<v><tv><cont>: "na-ekwu okwu"
-		"ikwu okwu"<v><tv><fut>: "ga-ekwu okwu"	
-			  
-
-	"ịhụnanya":
-		"ịhụnanya"<v><tv><aff>: "ịhụnanya"
-		"ịhụnanya"<v><tv><pres>: "hụnanya"
-		"ịhụnanya"<v><tv><past>: "hụrụ n'anya"
-		"ịhụnanya"<v><tv><cont>: "na-ahụ n'anya"
-		"ịhụnanya"<v><tv><fut>: "ga-ahụ n'anya" 
+  "ikwu":
+    ikwu<v><tv><aff>: ikwu
+    ikwu<v><tv><pres>: kwu
+    ikwu<v><tv><past>: kwuru
+    ikwu<v><tv><cont>: na-ekwu
+    ikwu<v><tv><fut>: ga-ekwu  
     
+  "ije":
+      ije<v><tv><aff>: ije
+      ije<v><tv><pres>: je
+      ije<v><tv><past>: jere
+      ije<v><tv><cont>: na-eje
+      ije<v><tv><fut>: ga-eje 
+    
+  "ịma":
+      ịma<v><tv><aff>: ịma
+      ịma<v><tv><pres>: ma
+      ịma<v><tv><past>: mara
+      ịma<v><tv><cont>: na-ama
+      ịma<v><tv><fut>: ga-ama 
+    
+  "ịhụ":
+    ịhụ<v><tv><aff>: ịhụ
+    ihụ<v><tv><pres>: hụ
+    ihụ<v><tv><past>: hụrụ
+    ihụ<v><tv><cont>: na-ahụ
+    ihụ<v><tv><fut>: ga-ahụ
+      
+  "ibia":
+    ibia<v><tv><aff>: ibia
+    ibia<v><tv><pres>: bia
+    ibia<v><tv><past>: biara
+    ibia<v><tv><cont>: na-abia
+    ibia<v><tv><fut>: ga-abia  
+      
+  "iche":
+    iche<v><tv><aff>: iche
+    iche<v><tv><pres>: che
+    iche<v><tv><past>: chere
+    iche<v><tv><cont>: na-eche
+    iche<v><tv><fut>: ga-eche
+      
+  "ine":
+    ine<v><tv><aff>: ine
+    ine<v><tv><pres>: ne
+    ine<v><tv><past>: nere
+    ine<v><tv><cont>: na-ene
+    ine<v><tv><fut>: ga-ene  
+    
+  "chọrọ":
+    chọrọ<v><tv><aff>: chọrọ
+    chọrọ<v><tv><pres>: chọrọ
+    chọrọ<v><tv><past>: chọrọ
+    chọrọ<v><tv><cont>: na-achọ
+    chọrọ<v><tv><fut>: ga-achọ
+      
+  "inye":
+    inye<v><tv><aff>: inye
+    inye<v><tv><pres>: nye
+    inye<v><tv><past>: nyere
+    inye<v><tv><cont>: na-enye
+    inye<v><tv><fut>: ga-enye
+
+  "ịgwa":
+    ịgwa<v><tv><aff>: ịgwa
+    ịgwa<v><tv><pres>: gwa
+    ịgwa<v><tv><past>: gwara
+    ịgwa<v><tv><cont>: na-agwa
+    ịgwa<v><tv><fut>: ga-agwa
+      
+  "ịjụ":
+    ịjụ<v><tv><aff>: ịjụ
+    ịjụ<v><tv><pres>: jụ
+    ịjụ<v><tv><past>: jụrụ
+    ịjụ<v><tv><cont>: na-ajụ
+    ịjụ<v><tv><fut>: ga-ajụ
+      
+  "irụ":
+    irụ<v><tv><aff>: irụ
+    irụ<v><tv><pres>: rụ
+    irụ<v><tv><past>: rụrụ
+    irụ<v><tv><cont>: na-arụ
+    irụ<v><tv><fut>: ga-arụ
+      
+  "ịhapụ":
+    ịhapụ<v><tv><aff>: ịhapụ
+    ịhapụ<v><tv><pres>: hapụ
+    ịhapụ<v><tv><past>: hapụrụ
+    ịhapụ<v><tv><cont>: na-ahapụ
+    ịhapụ<v><tv><fut>: ga-ahapụ
+      
+  "ịkpọ":
+    ịkpọ<v><tv><aff>: ịkpọ
+    ịkpọ<v><tv><pres>: kpọ
+    ịkpọ<v><tv><past>: kpọrọ
+    ịkpọ<v><tv><cont>: na-akpọ
+    ịkpọ<v><tv><fut>: ga-akpọ
+      
+  "ịchụ":
+    ịchụ<v><tv><aff>: ịchụ
+    ịchụ<v><tv><pres>: chụ
+    ịchụ<v><tv><past>: chụrụ
+    ịchụ<v><tv><cont>: na-achụ
+    ịchụ<v><tv><fut>: ga-achụ
+      
+  "ide":
+    ide<v><tv><aff>: ide
+    ide<v><tv><pres>: de
+    ide<v><tv><past>: dere
+    ide<v><tv><cont>: na-ede
+    ide<v><tv><fut>: ga-ede
+      
+  "ịgafe":
+    ịgafe<v><tv><aff>: ịgafe
+    ịgafe<v><tv><pres>: gafe
+    ịgafe<v><tv><past>: gafere
+    ịgafe<v><tv><cont>: na-agafe
+    ịgafe<v><tv><fut>: ga-agafe
+      
+  "ịgba":
+    ịgba<v><tv><aff>: ịgba
+    ịgba<v><tv><pres>: gba
+    ịgba<v><tv><past>: gbara
+    ịgba<v><tv><cont>: na-agba
+    ịgba<v><tv><fut>: ga-agba
+      
+  "igbachi":
+    igbachi<v><tv><aff>: igbachi
+    igbachi<v><tv><pres>: gbachi
+    igbachi<v><tv><past>: gbachiri
+    igbachi<v><tv><cont>: na-agbachi
+    igbachi<v><tv><fut>: ga-gabachi
+      
+  "icheta":
+    icheta<v><tv><aff>: icheta
+    icheta<v><tv><pres>: cheta
+    icheta<v><tv><past>: chetara
+    icheta<v><tv><cont>: na-cheta
+    icheta<v><tv><fut>: ga-cheta
+    
+  "ịkagbu":
+    ịkagbu<v><tv><aff>: ịkagbu
+    ịkagbu<v><tv><pres>: kagbu
+    ịkagbu<v><tv><past>: kagburu
+    ịkagbu<v><tv><cont>: na-akagbu
+    ịkagbu<v><tv><fut>: ga-akagbu            
+      
+  "ịnọdụ":
+    ịnọdụ<v><tv><aff>: ịnọdụ
+    ịnọdụ<v><tv><pres>: nọdụ
+    ịnọdụ<v><tv><past>: nọdụrụ
+    ịnọdụ<v><tv><cont>: na-anọdụ
+    ịnọdụ<v><tv><fut>: ga-anọdụ  
+
+  "itu":
+    itu<v><tv><aff>: itu
+    itu<v><tv><pres>: tu
+    itu<v><tv><past>: turu
+    itu<v><tv><cont>: na-atu
+    itu<v><tv><fut>: ga-atu    
+    
+  "ịmalite":
+    ịmalite<v><tv><aff>: ịmalite
+    ịmalite<v><tv><pres>: malite
+    ịmalite<v><tv><past>: malitere
+    ịmalite<v><tv><cont>: na-amalite
+    ịmalite<v><tv><fut>: ga-amalite  
   
+  "ịnụọ":
+    ịnụọ<v><tv><aff>: ịnụọ
+    ịnụọ<v><tv><pres>: nụọ
+    ịnụọ<v><tv><past>: nụọrụ
+    ịnụọ<v><tv><cont>: na-anụọ
+    ịnụọ<v><tv><fut>: ga-anụọ  
   
-  
-  
-  
-  
-  
-  
-  
+  "ịzaghachi":
+    ịzaghachi<v><tv><aff>: ịzaghachi
+    ịzaghachi<v><tv><pres>: zaghachi
+    ịzaghachi<v><tv><past>: zaghachiri
+    ịzaghachi<v><tv><cont>: na-azaghachi
+    ịzaghachi<v><tv><fut>: ga-azaghachi    
+
+  "inweta":
+    inweta<v><tv><aff>: inweta
+    inweta<v><tv><pres>: nweta
+    inweta<v><tv><past>: nwetara
+    inweta<v><tv><cont>: na-enweta
+    inweta<v><tv><fut>: ga-enweta
+
+  "ịnụ":
+    ịnụ<v><tv><aff>: ịnụ
+    ịnụ<v><tv><pres>: nụ
+    ịnụ<v><tv><past>: nụrụ
+    ịnụ<v><tv><cont>: na-anụ
+    ịnụ<v><tv><fut>: ga-anụ  
+      
+  "chị ọchị":
+    "ịchị ọchị<v><tv><aff>": "ịchị ọchị"
+    "ịchị ọchị<v><tv><pres>": "chịa ọchị"
+    "ịchị ọchị<v><tv><past>": "chịrị ọchị"
+    "ịchị ọchị<v><tv><cont>": "na-achị ọchị" 
+    "ịchị ọchị<v><tv><fut>": "ga-achị ọchị" 
+    
+  "ịge ntị":
+    "ịge ntị<v><tv><aff>": "ịge ntị"
+    "ịge ntị<v><tv><pres>": "ge ntị"
+    "ịge ntị<v><tv><past>": "gere ntị"
+    "ịge ntị<v><tv><cont>": "na-ege ntị"
+    "ịge ntị<v><tv><fut>": "ga-ege ntị"    
+   
+  "igwu egwu":
+    "igwu egwu<v><tv><aff>": "igwu egwu"
+    "igwu egwu<v><tv><pres>": "gwu egwu"
+    "igwu egwu<v><tv><past>": "gwuru egwu"
+    "igwu egwu<v><tv><cont>": "na-egwu egwu"
+    "igwu egwu<v><tv><fut>": "ga-egwu egwu"  
+      
+  "igba oso":
+    "igba oso<v><tv><aff>": igba oso"
+    "igba oso<v><tv><pres>": gba oso"
+    "igba oso<v><tv><past>": gbara oso"
+    "igba oso<v><tv><cont>": na-agba oso"
+    "igba oso<v><tv><fut>": ga-agba oso"    
+     
+  "izo ezo":
+    "izo ezo<v><tv><aff>": "izo ezo"
+    "izo ezo<v><tv><pres>": "izo ezo"
+    "izo ezo<v><tv><past>": "izo ezo"
+    "izo ezo<v><tv><cont>": "na-izo ezo"
+    "izo ezo<v><tv><fut>": "ga-izo ezo"    
+    
+  "ikwu okwu":
+    "ikwu okwu<v><tv><aff>": "ikwu okwu"
+    "ikwu okwu<v><tv><pres>": "kwu okwu"
+    "ikwu okwu<v><tv><past>": "kwuru okwu"
+    "ikwu okwu<v><tv><cont>": "na-ekwu okwu"
+    "ikwu okwu<v><tv><fut>": "ga-ekwu okwu"  
+
+  "ịhụnanya":
+    "ịhụnanya<v><tv><aff>": "ịhụnanya"
+    "ịhụnanya<v><tv><pres>": "hụnanya"
+    "ịhụnanya<v><tv><past>": "hụrụ n'anya"
+    "ịhụnanya<v><tv><cont>": "na-ahụ n'anya"
+    "ịhụnanya<v><tv><fut>": "ga-ahụ n'anya" 
