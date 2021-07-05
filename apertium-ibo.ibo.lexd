@@ -33,7 +33,7 @@
 PATTERNS
 Nouns N1
 Pronouns(1) [<prn>:] Pronouns(2)
-:V-Affixes(1) Verbs [<v>:] :V-Affixes(2) V-Affixes(3)
+:V-Affixes(1) Verbs(1) [<v>:] Verbs(2): :V-Affixes(2) V-Affixes(3)
 Numbers [<num>:]
 Prepositions [<pr>:]
 Adjectives [<adj>:]
@@ -55,9 +55,12 @@ LEXICON V-Affixes(3)
 # - tags
 # each row can be any combination of these
 
-:i>     :      <inf>:
-:{A}>   :      <prc>:
-:       :ra    <past>:
+:i>       :    <inf>:
+:ị>       :    <aff>:
+:{A}>     :    <prc>:
+:         :ra  <past>:
+:na-{A}>  :    <cont>:
+:ga-{A}>  :    <fut>:
 
 
 
@@ -388,83 +391,83 @@ ihe-obula:ihe-obula <ind>   # "everything, anything"
 
 
 #=============#
- LEXICON Verbs
+ LEXICON Verbs(2)
 #=============#
 
-iri:ri   # "eat"
-ibi:bi   # "live"
-iga:ga   # "walk"
-na-aga:na-aga   # "walks"
-ịza:za     # "answer"
-nọ:nọ    # "is, are"
-ịchọta:chọta     # "find"
+iri:ri          <tv>   # "eat"
+ibi:bi          <iv>   # "live"
+iga:ga          <iv>   # "walk"
+#na-aga:na-aga   <iv>   # "walks"
+ịza:za          <tv>   # "answer"
+nọ:nọ           <iv>   # "is, are"
+ịchọta:chọta    <tv>   # "find"
 #chọtara:chọtara   # "found"
-ga:ga   # "must"
-ibụ:bụ   # "be"
-bụ:bụ 	# "am"
-dị:dị   # "is"
-inwe:nwe   # "have, has"
-ime:me   # "make"
-isi:si   # "say"
-kwuo:kwuo   # "says"
-ije:je   # "go"
-#gara:gara   # "went"
-ima:ma   # "know"
-#maara:maara   # "knows"
-ihụ:hụ   # "see"
-ibia:bia   # "come"
-ichẹ:chẹ   # "think"
-chee:chee   # "thinks"
-ine:ne   # "look"
-nee-anya:nee-anya     # "looks"
-choo:choo   # "want"
-inye:nye   # "give"
-iji:ji   # "use"
-igwa:gwa   # "tell"
-ịjụ:jụ   # "ask"
-iru:ru   # "work"
-ọrụ:ọrụ  # "task"
-ịhapụ:hapụ   # "leave"
-ịkpọ:kpọ   # "call"
-ịchu:chu   # "chase"
-ide:de   # "write"
-ịgafe:gafe   # "pass"
-igba:gba   # "dance"
-igbachi:gbachi   # "lock"
-icheta:cheta   # "remember"
-ịkagbu:kagbu   # "cancel"
-ịnọdụ:nọdụ   # "sit"
-itu:tu   # "throw" 
-#eme:me   # "does"
-na-eme:na-eme # "doing"
-ime:me   # "do"
-#mere:mere   # "did"
-inwa:nwa   # "try"
-ibu:bu   # "become"
-ibido:bido   # "begin"
-nwere\ ike:nwere\ ike     # "can"
-oge:oge     # "time"
-ịnụọ:nụọ     # "drink"
-achị\ ọchị:achị\ ọchị     # "laughs"
-ịnụ:nụ     # "hear"
-ịge\ ntị:ge\ ntị     # "listens, listen"
-ịzaghachi:zaghachi     # "replies"
-ịhụrụ:hụrụ     # "seen"
-igwu\ egwu:gwu\ egwu     # "play"
-igba\ oso:gba\ oso     # "runs"
-ezo:ezo     # "hiding"
-ikwu\ okwu:kwu\ okwu     # "speak"
-inweta:nweta     # "get, gets"
-enweghị-ike:enweghị-ike     # "can't, cannot"
-ịnọdụ:nọdụ   # "sitting"
-ọnọ\ ọgụgụ:ọnọ\ ọgụgụ     # "counting"
-ịhụnanya:hụnanya    # "love"
-mmasị:mmasị     # "likes"
-iche:che  # "assume"
-bụrụ:bụrụ  	# "take"
-nyere:nyere  # "given"
-malitere:malitere  # "started"
-bidoro:bidoro # "start"
+ga:ga           <tv>   # "must"  FIXME: CHECK
+ibụ:bụ          <iv>   # "be"
+#bụ:bụ           <tv>   # "am"
+dị:dị           <iv>   # "is"
+inwe:nwe        <tv>   # "have, has"
+ime:me          <tv>   # "make"
+isi:si          <tv>   # "say"
+kwuo:kwuo       <tv>   # "says"
+ije:je          <iv>   # "go"
+#gara:gara       <tv>   # "went"
+ima:ma          <tv>   # "know"
+#maara:maara     <tv>   # "knows"
+ihụ:hụ          <tv>   # "see"
+ibia:bia        <tv>   # "come"
+ichẹ:chẹ        <iv>   # "think"
+#chee:chee       <tv>   # "thinks"
+ine:ne          <tv>   # "look"
+#nee-anya:nee-anya  <tv>   # "looks"
+choo:choo       <tv>   # "want"
+inye:nye        <tv>   # "give"
+iji:ji          <tv>   # "use"
+igwa:gwa        <tv>   # "tell"
+ịjụ:jụ          <tv>   # "ask"
+iru:ru          <tv>   # "work"
+ọrụ:ọrụ         <tv>   # "task"   FIXME: CHECK
+ịhapụ:hapụ      <iv>   # "leave"
+ịkpọ:kpọ        <tv>   # "call"
+ịchu:chu        <tv>   # "chase"
+ide:de          <tv>   # "write"
+ịgafe:gafe      <iv>   # "pass"
+igba:gba        <iv>   # "dance"
+igbachi:gbachi  <tv>   # "lock"
+icheta:cheta    <tv>   # "remember"
+ịkagbu:kagbu    <tv>   # "cancel"
+ịnọdụ:nọdụ      <iv>   # "sit"
+itu:tu          <tv>   # "throw" 
+#eme:me          <tv>   # "does"
+#na-eme:na-eme   <tv>   # "doing"
+ime:me          <tv>   # "do"
+#mere:mere       <tv>   # "did"
+inwa:nwa        <tv>   # "try"
+ibu:bu          <iv>   # "become"
+ibido:bido      <tv>   # "begin"
+nwere\ ike:nwere\ ike     <tv>   # "can"  FIXME: CHECK
+oge:oge         <tv>   # "time"   FIXME: CHECK
+ịnụọ:nụọ        <tv>   # "drink"
+achị\ ọchị:achị\ ọchị     <iv>   # "laughs"
+ịnụ:nụ          <tv>   # "hear"
+ịge\ ntị:ge\ ntị          <tv>   # "listens, listen"
+ịzaghachi:zaghachi        <tv>   # "replies"
+ịhụrụ:hụrụ      <tv>   # "seen"
+igwu\ egwu:gwu\ egwu      <iv>   # "play"
+igba\ oso:gba\ oso        <iv>   # "runs"
+ezo:ezo         <iv>   # "hiding"   FIXME: CHECK
+ikwu\ okwu:kwu\ okwu      <iv>   # "speak"
+inweta:nweta    <tv>   # "get, gets"
+enweghị-ike:enweghị-ike   <tv>   # "can't, cannot"  FIXME: CHECK
+ịnọdụ:nọdụ      <iv>   # "sitting"
+ọnọ\ ọgụgụ:ọnọ\ ọgụgụ     <iv>   # "counting"
+ịhụnanya:hụnanya          <tv>   # "love"
+mmasị:mmasị     <tv>   # "likes"
+iche:che        <tv>   # "assume"
+bụrụ:bụrụ  	    <tv>   # "take"
+nyere:nyere     <tv>   # "given"    FIXME: CHECK
+malitere:malitere      <tv>   # "started"  FIXME: CHECK
+bidoro:bidoro   <tv>   # "start"
 
 
 #=================#
