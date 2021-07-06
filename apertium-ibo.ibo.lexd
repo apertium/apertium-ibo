@@ -32,7 +32,7 @@
 
 PATTERNS
 Nouns N1
-Pronouns(1) [<prn>:] Pronouns(2)
+Pronouns(1) [<prn>:] Pronouns(2):
 :V-Affixes(1) Verbs(1) [<v>:] Verbs(2): :V-Affixes(2) V-Affixes(3)
 Numbers [<num>:]
 Prepositions [<pr>:]
@@ -381,11 +381,11 @@ ya:ya         <pers><p3><sg><poss>:   # "her, his, him"
 anyị:anyị     <pers><p1><pl><subj>:   # "we, us, ours"
 ha:ha         <pers><p3><pl><subj>:   # "they, their"
 ha:ha         <pers><p3><pl><poss>:   # "their"
-gini:gini     <itg>    # "what"
-onye:onye     <itg>    # "who"
-nkaa:nkaa     <dem>    # "that"
-ihe:ihe       <ind>    # "something"
-ihe-obula:ihe-obula <ind>   # "everything, anything"
+gini:gini     <itg>:    # "what"
+onye:onye     <itg>:    # "who"
+nkaa:nkaa     <dem>:    # "that"
+ihe:ihe       <ind>:    # "something"
+ihe-obula:ihe-obula <ind>:   # "everything, anything"
 
 
 
