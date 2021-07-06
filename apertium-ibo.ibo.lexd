@@ -55,8 +55,7 @@ LEXICON V-Affixes(3)
 # - tags
 # each row can be any combination of these
 
-:i>       :    <inf>:
-:ị>       :    <aff>:
+:{I}>     :    <inf>:
 :{A}>     :    <prc>:
 :         :ra  <past>:
 :na-{A}>  :    <cont>:

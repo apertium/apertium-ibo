@@ -1,28 +1,38 @@
 Alphabet
- A B Ç D E Ä F G H I J Ž K L M N Ň O Ö P R S Ş T U Ü W Y Ý Z
- a b ç d e ä f g h i j ž k l m n ň o ö p r s ş t u ü w y ý z
+ A B D E F G H I Ị J K L M N O Ọ P R S T U Ụ W Y Z
+ a b d e f g h i ị j k l m n o ọ p r s t u ụ w y z
 
  %{A%}:a
  %{A%}:e
+ %{I%}:i
+ %{I%}:ị
 
 
  %>:0  ;
 
 Sets
 
-Vow = A E Ä I O Ö U Ü Y Ý 
-        a e ä i o ö u ü y ý ;
+Vow = A E I Ị O Ọ U Ụ 
+      a e i ị o ọ u ụ ;
 
 Cns = B C D F G H J K L M N P R S T W Z 
       b c d f g h j k l m n p r s t w z ; 
 
 Rules 
 
-"Vowel harmony in participle suffix"
+"{A} vowel harmony in participle suffix"
 %{A%}:Vx <=> _ %>: (:Cns) :Vy ;
-       where Vy in ( a e i o u )
-             Vx in ( a e e a a )
+       where Vy in ( a e ị i ọ o ụ u )
+             Vx in ( a e a e a e a e )  ! FIXME: check dotted vowels
        matched ;
+
+"{I} vowel harmony"
+%{I%}:Vx <=> _ %>: (:Cns) :Vy ;
+       where Vy in ( a e ị i ọ o ụ u )
+             Vx in ( ị i ị i ị i ị i )  ! FIXME: check Vx = i ị
+       matched ;
+
+
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
