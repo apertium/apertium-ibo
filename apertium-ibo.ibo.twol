@@ -15,22 +15,37 @@ Sets
 Vow = A E I Ị O Ọ U Ụ 
       a e i ị o ọ u ụ ;
 
+VowATR = E I O U
+         e i o u ;
+
+VowRTR = A Ị Ọ Ụ 
+         a ị ọ ụ ;
+
 Cns = B C D F G H J K L M N P R S T W Y Z 
       b c d f g h j k l m n p r s t w y z ; 
 
 Rules 
 
-"{A} vowel harmony in participle suffix"
-%{A%}:Vx <=> _ %>: :Cns* :Vy ;
-       where Vy in ( a e ị i ọ o ụ u )
-             Vx in ( a e a e a e a e )  ! FIXME: check dotted vowels
-       matched ;
+!"{A} vowel harmony in participle prefix"
+!%{A%}:Vx <=> _ %>: :Cns* :Vy ;
+!            :Vy :Cns* %>: :Cns* _ ;
+!       where Vy in ( a e ị i ọ o ụ u )
+!             Vx in ( a e a e a e a e )  ! FIXME: check dotted vowels
+!       matched ;
+"{A} vowel harmony"
+%{A%}:a <=> _ [ %>: | :Cns ]* :VowRTR ;
+            :VowRTR [ %>: | :Cns ]* _ ;
 
+!"{I} vowel harmony"
+!%{I%}:Vx <=> _ %>: :Cns* :Vy ;
+!            :Vy :Cns* %>: :Cns* _ ;
+!       where Vy in ( a e ị i ọ o ụ u )
+!             Vx in ( ị i ị i ị i ị i )  ! FIXME: check Vx = i ị
+!       matched ;
 "{I} vowel harmony"
-%{I%}:Vx <=> _ %>: :Cns* :Vy ;
-       where Vy in ( a e ị i ọ o ụ u )
-             Vx in ( ị i ị i ị i ị i )  ! FIXME: check Vx = i ị
-       matched ;
+%{I%}:ị <=> _ [ %>: | :Cns ]* :VowRTR ;
+            :VowRTR [ %>: | :Cns ]* _ ;
+
 
 
 
