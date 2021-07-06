@@ -1,6 +1,6 @@
 Alphabet
- A B D E F G H I Ị J K L M N O Ọ P R S T U Ụ W Y Z
- a b d e f g h i ị j k l m n o ọ p r s t u ụ w y z
+ A B C D E F G H I Ị J K L M N O Ọ P R S T U Ụ W Y Z
+ a b c d e f g h i ị j k l m n o ọ p r s t u ụ w y z
 
  %{A%}:a
  %{A%}:e
@@ -15,19 +15,19 @@ Sets
 Vow = A E I Ị O Ọ U Ụ 
       a e i ị o ọ u ụ ;
 
-Cns = B C D F G H J K L M N P R S T W Z 
-      b c d f g h j k l m n p r s t w z ; 
+Cns = B C D F G H J K L M N P R S T W Y Z 
+      b c d f g h j k l m n p r s t w y z ; 
 
 Rules 
 
 "{A} vowel harmony in participle suffix"
-%{A%}:Vx <=> _ %>: (:Cns) :Vy ;
+%{A%}:Vx <=> _ %>: :Cns* :Vy ;
        where Vy in ( a e ị i ọ o ụ u )
              Vx in ( a e a e a e a e )  ! FIXME: check dotted vowels
        matched ;
 
 "{I} vowel harmony"
-%{I%}:Vx <=> _ %>: (:Cns) :Vy ;
+%{I%}:Vx <=> _ %>: :Cns* :Vy ;
        where Vy in ( a e ị i ọ o ụ u )
              Vx in ( ị i ị i ị i ị i )  ! FIXME: check Vx = i ị
        matched ;
