@@ -6,6 +6,11 @@ Alphabet
  %{A%}:e
  %{I%}:i
  %{I%}:ị
+ %{X%}:a
+ %{X%}:e
+ %{X%}:u
+ %{X%}:o
+
 
 
  %>:0  ;
@@ -36,6 +41,7 @@ Rules
 %{A%}:a <=> _ [ %>: | :Cns ]* :VowRTR ;
             :VowRTR [ %>: | :Cns ]* _ ;
 
+
 !"{I} vowel harmony"
 !%{I%}:Vx <=> _ %>: :Cns* :Vy ;
 !            :Vy :Cns* %>: :Cns* _ ;
@@ -45,6 +51,14 @@ Rules
 "{I} vowel harmony"
 %{I%}:ị <=> _ [ %>: | :Cns ]* :VowRTR ;
             :VowRTR [ %>: | :Cns ]* _ ;
+
+"{X} vowel harmony"
+%{X%}:Vy <=> _ [ %>: | :Cns ]* :Vx ;
+             :Vx [ %>: | :Cns ]* _ ;
+         where Vx in ( a e o ọ u ụ )
+               Vy in ( a e o ọ u ụ )
+         matched ;
+
 
 
 

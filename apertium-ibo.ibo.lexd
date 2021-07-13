@@ -33,7 +33,7 @@
 PATTERNS
 Nouns N1
 Pronouns(1) [<prn>:] Pronouns(2):
-:V-Affixes(1) Verbs(1) [<v>:] Verbs(2): :V-Affixes(2) V-Affixes(3)
+Verb-Patterns
 Numbers [<num>:]
 Prepositions [<pr>:]
 Adjectives [<adj>:]
@@ -43,6 +43,11 @@ Determiner [<det>:]
 Numerals
 Punctuation
 Misc
+
+PATTERN Verb-Patterns
+
+:V-Affixes(1) Verbs(1) [<v>:] Verbs(2): :V-Affixes(2) V-Affixes(3)
+:V-Affixes(1) Compound-Verbs(1) :V-Affixes(2) [:\ ] :Compound-Verbs(2) [<v>:] Compound-Verbs(3):  V-Affixes(3)
 
 LEXICON N1
 
@@ -58,7 +63,7 @@ LEXICON V-Affixes(3)
 :{I}>     :       <inf>:
 :{A}>     :       <prc>:
 :         :       <pres>:
-:         :>r{A}  <past>:
+:         :>r{X}  <past>:
 :na-{A}>  :       <cont>:
 :ga-{A}>  :       <fut>:
 
@@ -478,30 +483,31 @@ kachasị:kachasị      <ind>:    # "most"
 
 iri:ri          <tv>   # "eat"
 ibi:bi          <iv>   # "live"
-iga:ga          <iv>   # "walk"
+ịga:ga          <iv>   # "walk"
 #na-aga:na-aga   <iv>   # "walks"
 ịza:za          <tv>   # "answer"
 nọ:nọ           <iv>   # "is, are"
 ịchọta:chọta    <tv>   # "find"
 #chọtara:chọtara   # "found"
 ga:ga           <tv>   # "must"  FIXME: CHECK
-ibụ:bụ          <iv>   # "be"
+ịbụ:bụ          <iv>   # "be"
 #bụ:bụ           <tv>   # "am"
 dị:dị           <iv>   # "is"
 inwe:nwe        <tv>   # "have, has"
 ime:me          <tv>   # "make"
 isi:si          <tv>   # "say"
-kwuo:kwuo       <tv>   # "says"
-kwuru:kwuru     <tv>   # "said"
+ikwu:kwu        <tv>   # "say"
+#kwuo:kwuo       <tv>   # "says"
+#kwuru:kwuru     <tv>   # "said"
 ije:je          <iv>   # "go"
 #gara:gara       <tv>  # "went"
-ima:ma          <tv>   # "know"
-maara:maara     <tv>  # "knows"
+ịma:ma          <tv>   # "know"
+#maara:maara     <tv>  # "knows"
 meriri:meriri    <iv>  # "won"
 pụtara:pụtara   <tv>  # "mean"
-ihụ:hụ          <tv>   # "see"
-nkuzi:nkuzi    <tv>   # "tutoring" 
-ibia:bia        <tv>   # "come"
+ịhụ:hụ          <tv>   # "see"
+nkuzi:nkuzi     <tv>   # "tutoring" 
+ịbịa:bịa        <tv>   # "come"
 ichẹ:chẹ        <iv>   # "think"
 #chee:chee       <tv>   # "thinks"
 ine:ne          <tv>   # "look"
@@ -509,16 +515,16 @@ ine:ne          <tv>   # "look"
 choo:choo       <tv>   # "want"
 inye:nye        <tv>   # "give"
 iji:ji          <tv>   # "use"
-igwa:gwa        <tv>   # "tell"
+ịgwa:gwa        <tv>   # "tell"
 ịjụ:jụ          <tv>   # "ask"
-iru:ru          <tv>   # "work"
+ịrụ:rụ          <tv>   # "work"
 ọrụ:ọrụ         <tv>   # "task"   FIXME: CHECK
 ịhapụ:hapụ      <iv>   # "leave"
 ịkpọ:kpọ        <tv>   # "call"
-ịchu:chu        <tv>   # "chase"
+ịchụ:chụ        <tv>   # "chase"
 ide:de          <tv>   # "write"
 ịgafe:gafe      <iv>   # "pass"
-igba:gba        <iv>   # "dance"
+ịgba:gba        <iv>   # "dance"
 igbachi:gbachi  <tv>   # "lock"
 icheta:cheta    <tv>   # "remember"
 ịkagbu:kagbu    <tv>   # "cancel"
@@ -534,19 +540,14 @@ ibido:bido      <tv>   # "begin"
 nwere\ ike:nwere\ ike     <tv>   # "can"  FIXME: CHECK
 oge:oge         <tv>   # "time"   FIXME: CHECK
 ịnụọ:nụọ        <tv>   # "drink"
-achị\ ọchị:achị\ ọchị     <iv>   # "laughs"
 ịnụ:nụ          <tv>   # "hear"
-ịge\ ntị:ge\ ntị          <tv>   # "listens, listen"
 ịzaghachi:zaghachi        <tv>   # "replies"
 ịhụrụ:hụrụ      <tv>   # "seen"
-igwu\ egwu:gwu\ egwu      <iv>   # "play"
-igba\ oso:gba\ oso        <iv>   # "runs"
 ezo:ezo         <iv>   # "hiding"   FIXME: CHECK
 ikwu\ okwu:kwu\ okwu      <iv>   # "speak"
 inweta:nweta    <tv>   # "get, gets"
 enweghị\ ike:enweghị\ ike   <tv>   # "can't, cannot"  FIXME: CHECK
 ịnọdụ:nọdụ      <iv>   # "sitting"
-ọnọ\ ọgụgụ:ọnọ\ ọgụgụ     <iv>   # "counting"
 ịhụnanya:hụnanya          <tv>   # "love"
 mmasị:mmasị     <tv>   # "likes"
 iche:che        <tv>   # "assume"
@@ -563,6 +564,16 @@ kwadoro:kwadoro  <tv>    # "supported"
 egosi:egosi     <tv>    # "appears"
 hapụrụ:hapụrụ   <iv>   # "left"
 sonyere:sonyere <tv>   # "joined"
+
+#======================#
+ LEXICON Compound-Verbs(3)
+#======================#
+
+achị\ ọchị:achị       ọchị         <iv>   # "laughs"
+ịge\ ntị:ge           ntị          <tv>   # "listens, listen"
+igwu\ egwu:gwu        egwu         <iv>   # "play"
+igba\ oso:gba         oso          <iv>   # "runs"
+ọnọ\ ọgụgụ:ọnọ        ọgụgụ        <iv>   # "counting"
 
 
 #=================#
