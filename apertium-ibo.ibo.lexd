@@ -455,24 +455,41 @@ Disemba:Disemba   # "December"
 #================#
  LEXICON Pronouns(2)
 #================#
+
+# Inseparable
 m:m           <pers><p1><sg><subj>:   # "I"
+ị:ị           <pers><p2><sg><subj>:   # "you"   FIXME: vowel harmony
+ị:i           <pers><p2><sg><subj>:   # "you"   ! Dir/LR
+ọ:ọ           <pers><p3><sg><subj>:   # "she, he"  FIXME: vowel harmony
+ọ:o           <pers><p3><sg><subj>:   # "she, he"  ! Dir/LR
+a:a           <ind>:                  # "one/someone"  FIXME: vowel harmony
+a:e           <ind>:                  # "one/someone"  ! Dir/LR
+
+
+# Separable
+mụ:mụ         <pers><p1><sg>:         # "I, me, my"
+mụ:m          <pers><p1><sg>:         # "I, me, my"  ! Dir/LR
+gị:gị         <pers><p2><sg>:         # "you"
+anyị:anyị     <pers><p1><pl>:         # "we, us, ours"
+ụnụ:ụnụ       <pers><p2><pl>:         # "you, yours"
+ya:ya         <pers><p3><sg>:         # "him, her, it"
+ha:ha         <pers><p3><pl>:         # "they, their"
+
 nke-m:nke-m   <pers><p1><sg><poss>:   # "my"
-mụ:mụ         <pers><p1><sg><obj>:    # "me"
-ụnụ:ụnụ       <pers><p2><sg><subj>:   # "you, yours"
-gị:gị         <pers><p2><sg><obj>:    # "you"
 nke-gi:nke-gi <pers><p2><sg><poss>:   # "your, yours"
-ọ:ọ           <pers><p3><sg><subj>:   # "she, he"
-ya:ya         <pers><p3><sg><obj>:    # "him, her, it"
-ya:ya         <pers><p3><sg><poss>:   # "her, his, him"
-anyị:anyị     <pers><p1><pl><subj>:   # "we, us, ours"
-ha:ha         <pers><p3><pl><subj>:   # "they, their"
-ha:ha         <pers><p3><pl><poss>:   # "their"
-gini:gini     <itg>:    # "what"
-onye:onye     <itg>:    # "who"
-nkaa:nkaa     <dem>:    # "that"
-ihe:ihe       <ind>:    # "something"
-ihe-obula:ihe-obula <ind>:   # "everything, anything"
-kachasị:kachasị      <ind>:    # "most"
+
+gịnị:gịnị           <itg>:          # "what"
+onye:onye           <itg>:          # "who"
+nkaa:nkaa           <dem><sg>:      # "that"
+nke\ ahụ:nke\ ahụ   <dem><sg>:      # "that"
+ahụ:ahụ             <dem><sg>:      # "that"
+nke\ a:nke\ a       <dem><sg>:      # "this"
+a:a                 <dem><sg>:      # "this"
+ndị\ a:ndị\ a       <dem><pl>:      # "these"
+ndị\ ahụ:ndị\ ahụ   <dem><pl>:      # "these"
+ihe:ihe             <ind>:          # "something"
+ihe-obula:ihe-obula <ind>:          # "everything, anything"
+kachasị:kachasị     <ind>:          # "most"
 
 
 
