@@ -8,7 +8,7 @@ Tests:
   "iri":
     iri<v><tv><inf>: iri
     iri<v><tv><pres>: ri
-    iri<v><tv><past>: ribi
+    iri<v><tv><past>: riri
     iri<v><tv><cont>: na-eri
     iri<v><tv><fut>: ga-eri
   
@@ -100,7 +100,7 @@ Tests:
       
   "iche":
     iche<v><tv><inf>: iche
-    iche<v><tv><pres>: che
+    iche<v><tv><pres>: chee
     iche<v><tv><past>: chere
     iche<v><tv><cont>: na-eche
     iche<v><tv><fut>: ga-eche
@@ -307,3 +307,154 @@ Tests:
     "ịhụnanya<v><tv><past>": "hụrụ n'anya"
     "ịhụnanya<v><tv><cont>": "na-ahụ n'anya"
     "ịhụnanya<v><tv><fut>": "ga-ahụ n'anya" 
+    
+    
+    
+  "iweta":
+    iweta<v><tv><inf>: iweta
+    iweta<v><tv><pres>: weta
+    iweta<v><tv><past>: wetara
+    iweta<v><tv><cont>: na-eweta
+    iweta<v><tv><fut>: ga-eweta
+    
+  "ise":
+    ise<v><tv><inf>: ise
+    ise<v><tv><pres>: se
+    ise<v><tv><past>: sere
+    ise<v><tv><cont>: na-ese
+    ise<v><tv><fut>: ga-ese    
+    
+  "ijide":
+    ijide<v><tv><inf>: ijide
+    ijide<v><tv><pres>: jide
+    ijide<v><tv><past>: jidere
+    ijide<v><tv><cont>: na-ejide
+    ijide<v><tv><fut>: ga-ejide
+    
+  "ikpee ekpere":
+    "ikpee ekpere<v><tv><inf>": "ikpee ekpere"
+    "ikpee ekpere<v><tv><pres>": "kpee ekpere"
+    "ikpee ekpere<v><tv><past>": "kpere ekpere"
+    "ikpee ekpere<v><tv><cont>": "na-ekpe ekpere"
+    "ikpee ekpere<v><tv><fut>": "ga-ekpe ekpere"    
+        
+  "ibu abụ":
+    "ibu abụ<v><tv><inf>": "ibu abụ"
+    "ibu abụ<v><tv><pres>": "bu abụ"
+    "ibu abụ<v><tv><past>": "buru abụ"
+    "ibu abụ<v><tv><cont>": "na-abu abụ"
+    "ibu abụ<v><tv><fut>": "ga-abu abụ "    
+    
+  "ihi ụra":
+    "ihi ụra<v><tv><inf>": "ihi ụra"
+    "ihi ụra<v><tv><pres>": "hie ụra "
+    "ihi ụra<v><tv><past>": "hiri ụra"
+    "ihi ụra<v><tv><cont>": "na-ehi ụra"
+    "ihi ụra<v><tv><fut>": "ga-ehi ụra"  
+    
+  "iguzo":
+    iguzo<v><tv><inf>: iguzo
+    iguzo<v><tv><pres>: guzo
+    iguzo<v><tv><past>: guzoro
+    iguzo<v><tv><cont>: na-eguzo
+    iguzo<v><tv><fut>: ga-eguzo   
+    
+  "iwere":
+    iwere<v><tv><inf>: iwere
+    iwere<v><tv><pres>: were
+    iwere<v><tv><past>: were
+    iwere<v><tv><cont>: na-ewere
+    iwere<v><tv><fut>: ga-ewere      
+        
+  "ide":
+    ide<v><tv><inf>: ide
+    ide<v><tv><pres>: dee
+    ide<v><tv><past>: dere
+    ide<v><tv><cont>: na-ede
+    ide<v><tv><fut>: ga-ede    
+          
+  "isi":
+    isi<v><tv><inf>: isi
+    isi<v><tv><pres>: si
+    isi<v><tv><past>: siri
+    isi<v><tv><cont>: na-asi
+    isi<v><tv><fut>: ga-asi    
+                  
+  "ima":
+    ima<v><tv><inf>: ima
+    ima<v><tv><pres>: ma
+    ima<v><tv><past>: mara
+    ima<v><tv><cont>: na-ama
+    ima<v><tv><fut>: ga-ama         
+                  
+  "ifu":
+    ifu<v><tv><inf>: ifu
+    ifu<v><tv><pres>: fu
+    ifu<v><tv><past>: furu
+    ifu<v><tv><cont>: na-afu
+    ifu<v><tv><fut>: ga-afu     
+                   
+  "ibia":
+    ibia<v><tv><inf>: ibia
+    ibia<v><tv><pres>: bia
+    ibia<v><tv><past>: biara
+    ibia<v><tv><cont>: na-abia
+    ibia<v><tv><fut>: ga-abia     
+                
+  "igwa":
+    igwa<v><tv><inf>: igwa
+    igwa<v><tv><pres>: gwa
+    igwa<v><tv><past>: gwara
+    igwa<v><tv><cont>: na-agwa
+    igwa<v><tv><fut>: ga-agwa              
+                                
+  "iwu":
+    iwu<v><tv><inf>: iwu
+    iwu<v><tv><pres>: wu
+    iwu<v><tv><past>: wuru
+    iwu<v><tv><cont>: na-awu
+    iwu<v><tv><fut>: ga-awu              
+                            
+  "ịdị adị":
+    "ịdị adị<v><tv><inf>": "ịdị adị"
+    "ịdị adị<v><tv><pres>": "dị adị"
+    "ịdị adị<v><tv><past>": "dịrị adị"
+    "ịdị adị<v><tv><cont>": "na-adị adị"
+    "ịdị adị<v><tv><fut>": "ga-adị adị"               
+               
+  "ịkpọ":
+    ịkpọ<v><tv><inf>: ịkpọ
+    ịkpọ<v><tv><pres>: kpọ
+    ịkpọ<v><tv><past>: kpọrọ
+    ịkpọ<v><tv><cont>: na-akpọ
+    ịkpọ<v><tv><fut>: ga-akpọ                 
+               
+  "ịjụ":
+    ịjụ<v><tv><inf>: ịjụ
+    ịjụ<v><tv><pres>: jụọ
+    ịjụ<v><tv><past>: jụrụ
+    ịjụ<v><tv><cont>: na-ajụ
+    ịjụ<v><tv><fut>: ga-ajụ                
+    
+  "iji":
+    iji<v><tv><inf>: iji
+    iji<v><tv><pres>: jiri
+    iji<v><tv><past>: eji
+    iji<v><tv><cont>: na-eji
+    iji<v><tv><fut>: ga-eji    
+    
+  "ibido":
+    ibido<v><tv><inf>: ibido
+    ibido<v><tv><pres>: bido
+    ibido<v><tv><past>: bidoro
+    ibido<v><tv><cont>: na-ebido
+    ibido<v><tv><fut>: ga-ebido    
+        
+  "ịchọ":
+    ịchọ<v><tv><inf>: ịchọ
+    ịchọ<v><tv><pres>: chọọ
+    ịchọ<v><tv><past>: chọrọ
+    ịchọ<v><tv><cont>: na-achọ
+    ịchọ<v><tv><fut>: ga-achọ  
+           
+    
