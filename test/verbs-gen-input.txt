@@ -1,0 +1,368 @@
+# iri
+^iri<v><tv><inf>$
+^iri<v><tv><pres>$
+^iri<v><tv><past>$
+^iri<v><tv><cont>$
+^iri<v><tv><fut>$
+# ibi
+^ibi<v><iv><inf>$
+^ibi<v><iv><pres>$
+^ibi<v><iv><past>$
+^ibi<v><iv><cont>$
+^ibi<v><iv><fut>$
+# ịga
+^ịga<v><iv><inf>$
+^ịga<v><iv><pres>$
+^ịga<v><iv><past>$
+^ịga<v><iv><cont>$
+^ịga<v><iv><fut>$
+# ịza
+^ịza<v><tv><inf>$
+^ịza<v><tv><pres>$
+^ịza<v><tv><past>$
+^ịza<v><tv><cont>$
+^ịza<v><tv><fut>$
+# ịbụ
+^ịbụ<v><iv><inf>$
+^ịbụ<v><iv><sg><p1><pres>$
+^ịbụ<v><iv><sg><p2><pres>$
+^ịbụ<v><iv><sg><p3><pres>$
+^ịbụ<v><iv><pl><pres>$
+^ịbụ<v><iv><past>$
+^ịbụ<v><iv><fut>$
+# ịchọta
+^ịchọta<v><tv><inf>$
+^ịchọta<v><tv><pres>$
+^ịchọta<v><tv><past>$
+^ịchọta<v><tv><cont>$
+^ịchọta<v><tv><fut>$
+# inwe
+^inwe<v><tv><inf>$
+^inwe<v><tv><pres>$
+^inwe<v><tv><past>$
+^inwe<v><tv><cont>$
+^inwe<v><tv><fut>$
+# ime
+^ime<v><tv><inf>$
+^ime<v><tv><pres>$
+^ime<v><tv><past>$
+^ime<v><tv><cont>$
+^ime<v><tv><fut>$
+# ikwu
+^ikwu<v><tv><inf>$
+^ikwu<v><tv><pres>$
+^ikwu<v><tv><past>$
+^ikwu<v><tv><cont>$
+^ikwu<v><tv><fut>$
+# ije
+^ije<v><iv><inf>$
+^ije<v><iv><pres>$
+^ije<v><iv><past>$
+^ije<v><iv><cont>$
+^ije<v><iv><fut>$
+# ịma
+^ịma<v><tv><inf>$
+^ịma<v><tv><pres>$
+^ịma<v><tv><past>$
+^ịma<v><tv><cont>$
+^ịma<v><tv><fut>$
+# ịhụ
+^ịhụ<v><tv><inf>$
+^ịhụ<v><tv><pres>$
+^ịhụ<v><tv><past>$
+^ịhụ<v><tv><cont>$
+^ịhụ<v><tv><fut>$
+# ịbịa
+^ịbịa<v><tv><inf>$
+^ịbịa<v><tv><pres>$
+^ịbịa<v><tv><past>$
+^ịbịa<v><tv><cont>$
+^ịbịa<v><tv><fut>$
+# iche
+^iche<v><tv><inf>$
+^iche<v><tv><pres>$
+^iche<v><tv><past>$
+^iche<v><tv><cont>$
+^iche<v><tv><fut>$
+# ine
+^ine<v><tv><inf>$
+^ine<v><tv><pres>$
+^ine<v><tv><past>$
+^ine<v><tv><cont>$
+^ine<v><tv><fut>$
+# chọrọ
+^chọrọ<v><tv><inf>$
+^chọrọ<v><tv><pres>$
+^chọrọ<v><tv><past>$
+^chọrọ<v><tv><cont>$
+^chọrọ<v><tv><fut>$
+# inye
+^inye<v><tv><inf>$
+^inye<v><tv><pres>$
+^inye<v><tv><past>$
+^inye<v><tv><cont>$
+^inye<v><tv><fut>$
+# ịgwa
+^ịgwa<v><tv><inf>$
+^ịgwa<v><tv><pres>$
+^ịgwa<v><tv><past>$
+^ịgwa<v><tv><cont>$
+^ịgwa<v><tv><fut>$
+# ịjụ
+^ịjụ<v><tv><inf>$
+^ịjụ<v><tv><pres>$
+^ịjụ<v><tv><past>$
+^ịjụ<v><tv><cont>$
+^ịjụ<v><tv><fut>$
+# irụ
+^ịrụ<v><tv><inf>$
+^ịrụ<v><tv><pres>$
+^ịrụ<v><tv><past>$
+^ịrụ<v><tv><cont>$
+^ịrụ<v><tv><fut>$
+# ịhapụ
+^ịhapụ<v><iv><inf>$
+^ịhapụ<v><iv><pres>$
+^ịhapụ<v><iv><past>$
+^ịhapụ<v><iv><cont>$
+^ịhapụ<v><iv><fut>$
+# ịkpọ
+^ịkpọ<v><tv><inf>$
+^ịkpọ<v><tv><pres>$
+^ịkpọ<v><tv><past>$
+^ịkpọ<v><tv><cont>$
+^ịkpọ<v><tv><fut>$
+# ịchụ
+^ịchụ<v><tv><inf>$
+^ịchụ<v><tv><pres>$
+^ịchụ<v><tv><past>$
+^ịchụ<v><tv><cont>$
+^ịchụ<v><tv><fut>$
+# ide
+^ide<v><tv><inf>$
+^ide<v><tv><pres>$
+^ide<v><tv><past>$
+^ide<v><tv><cont>$
+^ide<v><tv><fut>$
+# ịgafe
+^ịgafe<v><iv><inf>$
+^ịgafe<v><iv><pres>$
+^ịgafe<v><iv><past>$
+^ịgafe<v><iv><cont>$
+^ịgafe<v><iv><fut>$
+# ịgba
+^ịgba<v><iv><inf>$
+^ịgba<v><iv><pres>$
+^ịgba<v><iv><past>$
+^ịgba<v><iv><cont>$
+^ịgba<v><iv><fut>$
+# igbachi
+^igbachi<v><tv><inf>$
+^igbachi<v><tv><pres>$
+^igbachi<v><tv><past>$
+^igbachi<v><tv><cont>$
+^igbachi<v><tv><fut>$
+# icheta
+^icheta<v><tv><inf>$
+^icheta<v><tv><pres>$
+^icheta<v><tv><past>$
+^icheta<v><tv><cont>$
+^icheta<v><tv><fut>$
+# ịkagbu
+^ịkagbu<v><tv><inf>$
+^ịkagbu<v><tv><pres>$
+^ịkagbu<v><tv><past>$
+^ịkagbu<v><tv><cont>$
+^ịkagbu<v><tv><fut>$
+# ịnọdụ
+^ịnọdụ<v><tv><inf>$
+^ịnọdụ<v><tv><pres>$
+^ịnọdụ<v><tv><past>$
+^ịnọdụ<v><tv><cont>$
+^ịnọdụ<v><tv><fut>$
+# itu
+^itu<v><tv><inf>$
+^itu<v><tv><pres>$
+^itu<v><tv><past>$
+^itu<v><tv><cont>$
+^itu<v><tv><fut>$
+# ịmalite
+^ịmalite<v><tv><inf>$
+^ịmalite<v><tv><pres>$
+^ịmalite<v><tv><past>$
+^ịmalite<v><tv><cont>$
+^ịmalite<v><tv><fut>$
+# ịnụọ
+^ịnụọ<v><tv><inf>$
+^ịnụọ<v><tv><pres>$
+^ịnụọ<v><tv><past>$
+^ịnụọ<v><tv><cont>$
+^ịnụọ<v><tv><fut>$
+# ịzaghachi
+^ịzaghachi<v><tv><inf>$
+^ịzaghachi<v><tv><pres>$
+^ịzaghachi<v><tv><past>$
+^ịzaghachi<v><tv><cont>$
+^ịzaghachi<v><tv><fut>$
+# inweta
+^inweta<v><tv><inf>$
+^inweta<v><tv><pres>$
+^inweta<v><tv><past>$
+^inweta<v><tv><cont>$
+^inweta<v><tv><fut>$
+# ịnụ
+^ịnụ<v><tv><inf>$
+^ịnụ<v><tv><pres>$
+^ịnụ<v><tv><past>$
+^ịnụ<v><tv><cont>$
+^ịnụ<v><tv><fut>$
+# chị ọchị
+^ịchị ọchị<v><tv><inf>$
+^ịchị ọchị<v><tv><pres>$
+^ịchị ọchị<v><tv><past>$
+^ịchị ọchị<v><tv><cont>$
+^ịchị ọchị<v><tv><fut>$
+# ịge ntị
+^ịge ntị<v><tv><inf>$
+^ịge ntị<v><tv><pres>$
+^ịge ntị<v><tv><past>$
+^ịge ntị<v><tv><cont>$
+^ịge ntị<v><tv><fut>$
+# igwu egwu
+^igwu egwu<v><iv><inf>$
+^igwu egwu<v><iv><pres>$
+^igwu egwu<v><iv><past>$
+^igwu egwu<v><iv><cont>$
+^igwu egwu<v><iv><fut>$
+# igba oso
+^igba oso<v><iv><inf>$
+^igba oso<v><iv><pres>$
+^igba oso<v><iv><past>$
+^igba oso<v><iv><cont>$
+^igba oso<v><iv><fut>$
+# izo ezo
+^izo ezo<v><tv><inf>$
+^izo ezo<v><tv><pres>$
+^izo ezo<v><tv><past>$
+^izo ezo<v><tv><cont>$
+^izo ezo<v><tv><fut>$
+# ikwu okwu
+^ikwu okwu<v><tv><inf>$
+^ikwu okwu<v><tv><pres>$
+^ikwu okwu<v><tv><past>$
+^ikwu okwu<v><tv><cont>$
+^ikwu okwu<v><tv><fut>$
+# ịhụnanya
+^ịhụnanya<v><tv><inf>$
+^ịhụnanya<v><tv><pres>$
+^ịhụnanya<v><tv><past>$
+^ịhụnanya<v><tv><cont>$
+^ịhụnanya<v><tv><fut>$
+# iweta
+^iweta<v><tv><inf>$
+^iweta<v><tv><pres>$
+^iweta<v><tv><past>$
+^iweta<v><tv><cont>$
+^iweta<v><tv><fut>$
+# ise
+^ise<v><tv><inf>$
+^ise<v><tv><pres>$
+^ise<v><tv><past>$
+^ise<v><tv><cont>$
+^ise<v><tv><fut>$
+# ijide
+^ijide<v><tv><inf>$
+^ijide<v><tv><pres>$
+^ijide<v><tv><past>$
+^ijide<v><tv><cont>$
+^ijide<v><tv><fut>$
+# ikpee ekpere
+^ikpee ekpere<v><tv><inf>$
+^ikpee ekpere<v><tv><pres>$
+^ikpee ekpere<v><tv><past>$
+^ikpee ekpere<v><tv><cont>$
+^ikpee ekpere<v><tv><fut>$
+# ibu abụ
+^ibu abụ<v><tv><inf>$
+^ibu abụ<v><tv><pres>$
+^ibu abụ<v><tv><past>$
+^ibu abụ<v><tv><cont>$
+^ibu abụ<v><tv><fut>$
+# ihi ụra
+^ihi ụra<v><tv><inf>$
+^ihi ụra<v><tv><pres>$
+^ihi ụra<v><tv><past>$
+^ihi ụra<v><tv><cont>$
+^ihi ụra<v><tv><fut>$
+# iguzo
+^iguzo<v><tv><inf>$
+^iguzo<v><tv><pres>$
+^iguzo<v><tv><past>$
+^iguzo<v><tv><cont>$
+^iguzo<v><tv><fut>$
+# iwere
+^iwere<v><tv><inf>$
+^iwere<v><tv><pres>$
+^iwere<v><tv><past>$
+^iwere<v><tv><cont>$
+^iwere<v><tv><fut>$
+# isi
+^isi<v><tv><inf>$
+^isi<v><tv><pres>$
+^isi<v><tv><past>$
+^isi<v><tv><cont>$
+^isi<v><tv><fut>$
+# ima
+^ima<v><tv><inf>$
+^ima<v><tv><pres>$
+^ima<v><tv><past>$
+^ima<v><tv><cont>$
+^ima<v><tv><fut>$
+# ifu
+^ifu<v><tv><inf>$
+^ifu<v><tv><pres>$
+^ifu<v><tv><past>$
+^ifu<v><tv><cont>$
+^ifu<v><tv><fut>$
+# ibia
+^ibia<v><tv><inf>$
+^ibia<v><tv><pres>$
+^ibia<v><tv><past>$
+^ibia<v><tv><cont>$
+^ibia<v><tv><fut>$
+# igwa
+^igwa<v><tv><inf>$
+^igwa<v><tv><pres>$
+^igwa<v><tv><past>$
+^igwa<v><tv><cont>$
+^igwa<v><tv><fut>$
+# iwu
+^iwu<v><tv><inf>$
+^iwu<v><tv><pres>$
+^iwu<v><tv><past>$
+^iwu<v><tv><cont>$
+^iwu<v><tv><fut>$
+# ịdị adị
+^ịdị adị<v><tv><inf>$
+^ịdị adị<v><tv><pres>$
+^ịdị adị<v><tv><past>$
+^ịdị adị<v><tv><cont>$
+^ịdị adị<v><tv><fut>$
+# iji
+^iji<v><tv><inf>$
+^iji<v><tv><pres>$
+^iji<v><tv><past>$
+^iji<v><tv><cont>$
+^iji<v><tv><fut>$
+# ibido
+^ibido<v><tv><inf>$
+^ibido<v><tv><pres>$
+^ibido<v><tv><past>$
+^ibido<v><tv><cont>$
+^ibido<v><tv><fut>$
+# ịchọ
+^ịchọ<v><tv><inf>$
+^ịchọ<v><tv><pres>$
+^ịchọ<v><tv><past>$
+^ịchọ<v><tv><cont>$
+^ịchọ<v><tv><fut>$

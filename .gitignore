@@ -22,3 +22,5 @@
 /history.log
 /*.txt
 /coverage-hfst.sh
+/*.zhfst
+/.DS_Store
