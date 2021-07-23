@@ -1,0 +1,368 @@
+# iri
+iri
+ri
+riri
+na-eri
+ga-eri
+# ibi
+ibi
+bi
+bibi
+na-ebi
+ga-ebi
+# ịga
+ịga
+ga
+gara
+na-aga
+ga-aga
+# ịza
+ịza
+za
+zara
+na-aza
+ga-aza
+# ịbụ
+ịbụ
+m
+bụ
+di
+bụ
+nọ
+ga-nọ
+# ịchọta
+ịchọta
+chọta
+chọtara
+na-achọta
+ga-achọta
+# inwe
+inwe
+nwe
+nwere
+na-enwe
+ga-enwe
+# ime
+ime
+me
+mere
+na-eme
+ga-eme
+# ikwu
+ikwu
+kwu
+kwuru
+na-ekwu
+ga-ekwu
+# ije
+ije
+je
+jere
+na-eje
+ga-eje
+# ịma
+ịma
+ma
+mara
+na-ama
+ga-ama
+# ịhụ
+ịhụ
+hụ
+hụrụ
+na-ahụ
+ga-ahụ
+# ịbịa
+ịbịa
+bịa
+bịara
+na-abịa
+ga-abịa
+# iche
+iche
+chee
+chere
+na-eche
+ga-eche
+# ine
+ine
+ne
+nere
+na-ene
+ga-ene
+# chọrọ
+chọrọ
+chọrọ
+chọrọ
+na-achọ
+ga-achọ
+# inye
+inye
+nye
+nyere
+na-enye
+ga-enye
+# ịgwa
+ịgwa
+gwa
+gwara
+na-agwa
+ga-agwa
+# ịjụ
+ịjụ
+jụọ
+jụrụ
+na-ajụ
+ga-ajụ
+# irụ
+ịrụ
+rụ
+rụrụ
+na-arụ
+ga-arụ
+# ịhapụ
+ịhapụ
+hapụ
+hapụrụ
+na-ahapụ
+ga-ahapụ
+# ịkpọ
+ịkpọ
+kpọ
+kpọrọ
+na-akpọ
+ga-akpọ
+# ịchụ
+ịchụ
+chụ
+chụrụ
+na-achụ
+ga-achụ
+# ide
+ide
+dee
+dere
+na-ede
+ga-ede
+# ịgafe
+ịgafe
+gafe
+gafere
+na-agafe
+ga-agafe
+# ịgba
+ịgba
+gba
+gbara
+na-agba
+ga-agba
+# igbachi
+igbachi
+gbachi
+gbachiri
+na-agbachi
+ga-gabachi
+# icheta
+icheta
+cheta
+chetara
+na-cheta
+ga-cheta
+# ịkagbu
+ịkagbu
+kagbu
+kagburu
+na-akagbu
+ga-akagbu
+# ịnọdụ
+ịnọdụ
+nọdụ
+nọdụrụ
+na-anọdụ
+ga-anọdụ
+# itu
+itu
+tu
+turu
+na-atu
+ga-atu
+# ịmalite
+ịmalite
+malite
+malitere
+na-amalite
+ga-amalite
+# ịnụọ
+ịnụọ
+nụọ
+nụọrụ
+na-anụọ
+ga-anụọ
+# ịzaghachi
+ịzaghachi
+zaghachi
+zaghachiri
+na-azaghachi
+ga-azaghachi
+# inweta
+inweta
+nweta
+nwetara
+na-enweta
+ga-enweta
+# ịnụ
+ịnụ
+nụ
+nụrụ
+na-anụ
+ga-anụ
+# chị ọchị
+ịchị ọchị
+chịa ọchị
+chịrị ọchị
+na-achị ọchị
+ga-achị ọchị
+# ịge ntị
+ịge ntị
+ge ntị
+gere ntị
+na-ege ntị
+ga-ege ntị
+# igwu egwu
+igwu egwu
+gwu egwu
+gwuru egwu
+na-egwu egwu
+ga-egwu egwu
+# igba oso
+igba oso
+gba oso
+gbara oso
+na-agba oso
+ga-agba oso
+# izo ezo
+izo ezo
+izo ezo
+izo ezo
+na-izo ezo
+ga-izo ezo
+# ikwu okwu
+ikwu okwu
+kwu okwu
+kwuru okwu
+na-ekwu okwu
+ga-ekwu okwu
+# ịhụnanya
+ịhụnanya
+hụnanya
+hụrụ n'anya
+na-ahụ n'anya
+ga-ahụ n'anya
+# iweta
+iweta
+weta
+wetara
+na-eweta
+ga-eweta
+# ise
+ise
+se
+sere
+na-ese
+ga-ese
+# ijide
+ijide
+jide
+jidere
+na-ejide
+ga-ejide
+# ikpee ekpere
+ikpee ekpere
+kpee ekpere
+kpere ekpere
+na-ekpe ekpere
+ga-ekpe ekpere
+# ibu abụ
+ibu abụ
+bu abụ
+buru abụ
+na-abu abụ
+ga-abu abụ 
+# ihi ụra
+ihi ụra
+hie ụra 
+hiri ụra
+na-ehi ụra
+ga-ehi ụra
+# iguzo
+iguzo
+guzo
+guzoro
+na-eguzo
+ga-eguzo
+# iwere
+iwere
+were
+were
+na-ewere
+ga-ewere
+# isi
+isi
+si
+siri
+na-asi
+ga-asi
+# ima
+ima
+ma
+mara
+na-ama
+ga-ama
+# ifu
+ifu
+fu
+furu
+na-afu
+ga-afu
+# ibia
+ibia
+bia
+biara
+na-abia
+ga-abia
+# igwa
+igwa
+gwa
+gwara
+na-agwa
+ga-agwa
+# iwu
+iwu
+wu
+wuru
+na-awu
+ga-awu
+# ịdị adị
+ịdị adị
+dị adị
+dịrị adị
+na-adị adị
+ga-adị adị
+# iji
+iji
+jiri
+eji
+na-eji
+ga-eji
+# ibido
+ibido
+bido
+bidoro
+na-ebido
+ga-ebido
+# ịchọ
+ịchọ
+chọọ
+chọrọ
+na-achọ
+ga-achọ
