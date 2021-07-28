@@ -106,7 +106,7 @@ ihu:ihu   # "face"
 mbọ:mbọ   # "nail"
 ahu:ahu  # "body"
 anya:anya   # "eye, eyes"
-isi:isi   # "isi"
+isi:isi   # "head"
 ọbara:ọbara   # "blood"
 mkpụlụ-obi:mkpụlụ-obi # "heart"
 obi:obi	# "chest"
@@ -494,7 +494,6 @@ kachasị:kachasị     <ind>:          # "most"
 
 
 
-
 #=============#
  LEXICON Verbs(2)
 #=============#
@@ -512,7 +511,6 @@ nọ:nọ           <iv>   # "is, are"
 dị:dị           <iv>   # "is"
 inwe:nwe        <tv>   # "have, has"
 ime:me          <tv>   # "make"
-isi:si          <tv>   # "say"
 ikwu:kwu        <tv>   # "say"
 #kwuo:kwuo       <tv>   # "says"
 #kwuru:kwuru     <tv>   # "said"
@@ -572,7 +570,7 @@ akwado:kwado   <tv>     # "supported"
 kwadoro:kwado  <tv>    # "supported"
 hapụrụ:hapụrụ   <iv>   # "left"
 sonyere:sonyere <tv>   # "joined"
-gụrụ:gụrụ      <iv>    # "read"
+ịgụ:gụ      <iv>    # "read"
 inabata:nabata  <tv>   # "accept"
 ikweta:kweta       <tv>    # "acknowledge"
 imeghari:meghari   <tv>    # "adapt"
@@ -663,11 +661,45 @@ imeghe:meghe          <iv>   # "open"
 ịyigharị:yigharị      <tv>    # "postpone"
 ịwụpụ:wụpụ      <tv>    # "pour"
 ichebe:chebe      <iv>    # "protect"
-
-
-
-
-
+ịchụso:chụso       <tv>     # "pursue"
+ịpị:pị                  <tv>    # "click"
+ịkwụsị:kwụsị     <tv>      # "quit, stop"
+ịghọta:ghọta   <tv>     # "realize"
+ikwugharị:kwugharị     <tv>     # "repeat"
+iweghachi:weghachi     <iv>    # "restore"
+ikpoghachi:kpoghachi    <iv>     # "recall"
+ichetaghachi:chetaghachi    <iv>   # "recollect"
+ịjụ:jụ       <tv>    # "refuse"       
+izuike:zuike      <iv>   # "relax"
+ịrụkwa:rụkwa    <tv>   # "repair"
+ịkwụghachi:kwụghachi   <tv>    # "repay"
+idochi:dochi    <iv>     # "replace"
+iguzogide:guzogide    <iv>     # "resist"
+ihunoku:hunoku      <iv>      # "roast"
+ịsachapụ:sachapụ      <tv>    # "scrub"
+ire:re     <iv>   # "sell"
+iziga:ziga     <iv>    # "send"
+ijeozi:jeozi     <iv>    # "serve"
+ịtọ:tọ  <tv>      # "set"
+idozi:dozi   <iv>    # "settle"
+ịkwanye:kwanye    <tv>   # "shake"
+ịwụfu:wụfu    <tv>    # "shed"
+imechi:mechi    <iv>    # "shut"
+imikpu:mikpu     <iv>   # "submerge"
+iberi:beri       <iv>    # "slice"
+isi:si      <iv>      # "smell"
+igwoura:gwoura     <iv>   # "snore"
+ịsụpepe:sụpepe     <tv> # "spell"
+imefu:mefu     <iv>   # "spend"
+ịkwafu:kwafu    <tv>    # "spill"
+iwukwudo:wukwudo     <iv>   # "squat"
+iguzo:guzo       <iv>     # "stand"
+ịrapara:rapara     <tv>    # "stick"
+ikpalite:kpalite     <iv>    # "trigger"
+ịkpali:kpali      <tv>   # "stir"
+ibunye:bunye      <iv>   # "supply"
+ịlanarị:lanarị       <tv>    # "survive"
+iza:za        <iv>     # "sweep"
 
 
 #======================#
@@ -717,14 +749,21 @@ ibinye\ ego:binye ego   <iv>    # "lend"
 ileghara\ anya:leghara anya    <iv>   # "neglct"
 ịkwụ\ ụgwọ:kwụ ụgwọ      <tv>       # "pay"
 iso\ nso:so nso       <iv>      # "forbid"
-
-
-
-
-
-
-
-
+ịkụ\ ọkpọ:kụ ọkpọ     <tv>       # "punch"
+imeghachi\ omume:meghachi omume   <iv>     # "react"
+ịtụgharị\ uche:tụgharị uche     <tv>     # "reflect"
+ịnọchite\ anya:nọchite anya     <tv>    # "represent"
+ịjuo\ afọ:juo afọ    <iv>       # "satisfy"
+ịkwa\ akwa:kwa akwa    <tv>    # "sew"
+ihi\ ụra:hi ụra      <tv>     # "sleep"
+ịgha\ mkpụrụ:gha mkpụrụ    <tv>   # "sow"
+ịgbụọpụ\ ọnụ:gbụọpụ ọnụ     <tv>   # "spit"
+izu\ ohi:zu ohi       <iv>      # "steal"
+isi\ isi:si isi    <iv>     # "stink"
+igu\ akwukwo:gu akwukwo    <iv>   # "study"
+ịta\ ahụhụ:ta ahụhụ    <tv>    # "suffer"
+ịtụ\ aro:tụ aro   <tv>     # "suggest"
+igwu\ mmiri:gwu mmiri     <iv>   # "swim"
 
 
 
@@ -801,14 +840,14 @@ ojii:ojii	# "black"
 igwe-igwe:igwe-igwe # "blue"
 aja:aja 	# "brown"
 akwụkwọ-ndụ-akwụkwọ-ndụ:akwụkwọ-ndụ-akwụkwọ-ndụ # "green
-ọla-edo:ọla-edo # "gold"
-ntụ-ntụ:ntụ-ntụ  # "gray"
-pọpọ-pọpọ:pọpọ-pọpọ # "orange"
-ire-ire:ire-ire  # "pink"
-odo-odo:odo-odo  # "purple"
-ọbara-ọbara:ọbara-ọbara # "red"
-ọla-ọcha:Ọla-ọcha  # "silver"
-edo-edo:edo-edo   # "yellow"
+ọla\ edo:ọla\ edo # "gold"
+ntụ\ ntụ:ntụ\ ntụ  # "gray"
+pọpọ\ pọpọ:pọpọ\ pọpọ # "orange"
+ire\ ire:ire\ ire  # "pink"
+odo\ odo:odo\ odo  # "purple"
+ọbara\ ọbara:ọbara\ ọbara # "red"
+ọla\ ọcha:Ọla\ ọcha  # "silver"
+edo\ edo:edo\ edo   # "yellow"
 ọcha:ọcha	# "white"
 
 
