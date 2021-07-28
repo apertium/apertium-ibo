@@ -579,8 +579,8 @@ imeghari:meghari   <tv>    # "adapt"
 ịgbakwunye:gbakwunye  <iv>   # "add"
 ikwere:kwere      <iv>    # "agree"
 ikwusa:kwusa     <iv>   # "announce"
-igosi:gosi     <iv>    # "show"
-ịpụta:pụta     <tv>    # "appear"
+igosi:gosi     <iv>    # "show, indicate"
+ịpụta:pụta     <tv>    # "mean"
 itinye:tinye    <iv>   # "apply" 
 ibili:bili      <iv>   # "arise 
 ibịarute:bịarute   <tv>  # "arrive"
@@ -631,7 +631,7 @@ ida:da       <iv>    # "fail"
 ịda:da   <tv>      # "fall"
 imecha:mecha   <iv>  # "finish"
 ịgbaso:gbaso     <tv>    # "follow"
-igbochi:gbochi    <iv>   # "forbid"
+igbochi:gbochi    <iv>   # "prevent"
 ighe:ghe   <iv>    # "fry"
 igbanye:gbanye    <iv>    # "ignition"
 igwerie:gwerie    <iv>    # "grind"
@@ -640,12 +640,29 @@ ikowe:kowe    <iv>   # "hang"
 iti:ti     <iv>     # "beat"
 ịkpọgide:kpọgide    <tv>  # "crucify"
 ịkụrụ:kụrụ     <tv>     # "hit"
-ijide:jide     <iv>    # "hold"
+ijigide:jigide     <iv>    # "hold"
 ịmakụ:makụ     <tv>     # "hug"
 ịmerụ:merụ     <tv>     # "hurt"
 ịmata:mata    <tv>     # "identify"
 ịgụnye:gụnye    <tv>    # "include"
-
+igwa:gwa       <iv>    # "inform"
+ịzube:zube    <tv>      # "intend"
+iwebata:webata   <iv>   # introduce"
+idebe:debe     <iv>    # "keep"
+igba:gba       <iv>   # "kick"
+idu:idu        <iv>    # "lead"
+ịmụta:mụta     <tv>   # "learn"
+ịdabere:dabere    <tv>  # "lean"
+ibuli:buli      <iv>   # "lift"
+ijikwa:jikwa     <iv>   # "manage"
+Izukọ:zukọ       <tv>    # "meet"
+igbazee:gbazee    <iv>   # "melt"
+ịgwakọta:gwakọta     <tv>   # "mix"
+imeghe:meghe          <iv>   # "open"
+ịhazi:hazi      <iv>   # "organize"
+ịyigharị:yigharị      <tv>    # "postpone"
+ịwụpụ:wụpụ      <tv>    # "pour"
+ichebe:chebe      <iv>    # "protect"
 
 
 
@@ -657,7 +674,7 @@ ijide:jide     <iv>    # "hold"
  LEXICON Compound-Verbs(3)
 #======================#
 
-achị\ ọchị:achị       ọchị         <tv>   # "laugh"
+ịchị\ ọchị:chị       ọchị         <tv>   # "laugh"
 ịge\ ntị:ge           ntị          <tv>   # "listen"
 igwu\ egwu:gwu        egwu         <iv>   # "play"
 igba\ oso:gba         oso          <iv>   # "run"
@@ -686,10 +703,29 @@ izo\ ezo:zo ezo    <iv>    # "hide"
 iwuli\ elu:wuli elu   <iv>    # "hop"
 ima\ elu:ma elu     <iv>     # "jump"
 inwe\ olileanya:nwe olileanya    <iv>    # "hope"
+isi\ onwu:si onwu             <iv>   # "insist"
+ime\ atụmatụ:me atụmatụ       <tv>    # "plan"
+ịtụrụ\ ime:tụrụ ime         <tv>   # "conceive"
+itinye\ ego:tinye ego       <iv>    # "invest"
+isusu\ onu:susu onu      <iv>     # "kiss"
+ileru\ anya:leru anya        <iv>    # "observe" 
+igbu\ ikpere:gbu ikpere   <iv>     # "kneel"
+ịgha\ ụgha:gha ụgha      <tv>    # "lie"
+itu\ ukwu:tu ukwu       <iv>    # "leap"
+ibinye\ ego:binye ego   <iv>    # "lend"
+ịwa\ ọkụ:wa ọkụ            <tv>     # "light"
+ileghara\ anya:ileghara\ anya    <iv>   # "neglct"
+ịkwụ\ ụgwọ:kwụ ụgwọ      <tv>       # "pay"
+iso\ nso:so nso       <iv>      # "forbid"
 
 
 
- 
+
+
+
+
+
+
 
 
 #=================#
