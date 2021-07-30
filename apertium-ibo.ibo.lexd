@@ -700,7 +700,17 @@ ikpalite:kpalite     <iv>    # "trigger"
 ibunye:bunye      <iv>   # "supply"
 ịlanarị:lanarị       <tv>    # "survive"
 iza:za        <iv>     # "sweep"
-
+ikuzi:kuzi    <iv>    # "teach"
+ịdọka:dọka    <tv>    # "tear"
+inwendidi:nwendidi     <iv>   # "tolerate"
+ịsụgharị:sụgharị     <tv>      # "translate"
+ịghọta:ghọta     <tv>    # "understand"
+iteta:teta       <iv>     # "wake"
+ichere:chere    <iv>   # "wait"
+ịsa:sa       <tv>     # "wash"
+ifegharị:fegharị       <iv>    # "wave"
+iyi:yi       <iv>     # "wear"
+imetụta:metụta      <iv>    # "affect" 
 
 #======================#
  LEXICON Compound-Verbs(3)
@@ -764,7 +774,8 @@ igu\ akwukwo:gu akwukwo    <iv>   # "study"
 ịta\ ahụhụ:ta ahụhụ    <tv>    # "suffer"
 ịtụ\ aro:tụ aro   <tv>     # "suggest"
 igwu\ mmiri:gwu mmiri     <iv>   # "swim"
-
+iyi\ egwu:yi egwu     <iv>     # "threaten"
+ịkụ\ nzọ:kụ nzọ        <tv>     # "bet"
 
 
 #=================#
