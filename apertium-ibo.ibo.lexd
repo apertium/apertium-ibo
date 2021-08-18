@@ -48,6 +48,7 @@ PATTERN Verb-Patterns
 
 :V-Affixes(1) Verbs(1) [<v>:] Verbs(2): :V-Affixes(2) V-Affixes(3)
 :V-Affixes(1) Compound-Verbs(1) :V-Affixes(2) [:\ ] :Compound-Verbs(2) [<v>:] Compound-Verbs(3):  V-Affixes(3)
+:Pronouns(1) [<prn>:] Pronouns(2) :V-Affixes(1) Verbs(1) [<v>:] Verbs(2): :V-Affixes(2) V-Affixes(3)
 
 LEXICON N1
 
@@ -838,7 +839,6 @@ mma:mma    # "nice"
 mechara:mechara	# "finished"
 nyocha:nyocha    # "searching"
 na-anwa:na-anwa    # "trying"
-abia:abia     # "coming"
 nke-ha:nke-ha     # "theirs"
 igbo:igbo   # "ibo"
 mpaghara:mpaghara  # "local"
