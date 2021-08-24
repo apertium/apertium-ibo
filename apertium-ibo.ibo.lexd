@@ -48,7 +48,6 @@ PATTERN Verb-Patterns
 
 :V-Affixes(1) Verbs(1) [<v>:] Verbs(2): :V-Affixes(2) V-Affixes(3)
 :V-Affixes(1) Compound-Verbs(1) :V-Affixes(2) [:\ ] :Compound-Verbs(2) [<v>:] Compound-Verbs(3):  V-Affixes(3)
-:Pronouns(1) [<prn>:] Pronouns(2) :V-Affixes(1) Verbs(1) [<v>:] Verbs(2): :V-Affixes(2) V-Affixes(3)
 
 LEXICON N1
 
@@ -405,7 +404,7 @@ Afrịka:Afrịka   # "africa"
 ọgwụ:ọgwụ    # "medicine"
 azụmahịa:azụmahịa    # "business"
 ụgwọ:ụgwọ       # "debt"
-sayensị"sayensị   # "science"
+sayensị:sayensị   # "science"
 ngalaba:ngalaba  # "department"
 mmemme:mmemme   # "program"
 omume:omume    # "behavior"
@@ -470,7 +469,7 @@ a:e           <ind>:                  # "one/someone"  ! Dir/LR
 
 # Separable
 mụ:mụ         <pers><p1><sg>:         # "I, me, my"
-mụ:m          <pers><p1><sg>:         # "I, me, my"  ! Dir/LR
+#mụ:m          <pers><p1><sg>:         # "I, me, my"  ! Dir/LR
 gị:gị         <pers><p2><sg>:         # "you"
 anyị:anyị     <pers><p1><pl>:         # "we, us, ours"
 ụnụ:ụnụ       <pers><p2><pl>:         # "you, yours"
@@ -486,7 +485,7 @@ nkaa:nkaa           <dem><sg>:      # "that"
 nke\ ahụ:nke\ ahụ   <dem><sg>:      # "that"
 ahụ:ahụ             <dem><sg>:      # "that"
 nke\ a:nke\ a       <dem><sg>:      # "this"
-a:a                 <dem><sg>:      # "this"
+#a:a                 <dem><sg>:      # "this"
 ndị\ a:ndị\ a       <dem><pl>:      # "these"
 ndị\ ahụ:ndị\ ahụ   <dem><pl>:      # "these"
 ihe:ihe             <ind>:          # "something"
@@ -524,6 +523,7 @@ pụtara:pụtara   <tv>  # "mean"
 ịhụ:hụ          <tv>   # "see"
 nkuzi:nkuzi     <iv>   # "tutoring"
 ịbia:bia        <iv>   # "come"
+ịbịa:bịa        <iv>   # "come"
 iche:che        <tv>   # "think"
 ine:ne          <iv>   # "look"
 choo:choo       <tv>   # "want"
@@ -1024,7 +1024,7 @@ maọbụ<cnjcoo>:maọbụ   # "or"
  LEXICON Determiner(2)
 #=================#
 
-a:a                    <ind>  # "a"
+#a:a                    <ind>  # "a"
 kedu\ nke:kedu\ nke    <itg>  # "which"
 ụfọdụ:ụfọdụ            <ind>  # "some"
 ha-abụọ:ha-abụọ        <ind>  # "both"
